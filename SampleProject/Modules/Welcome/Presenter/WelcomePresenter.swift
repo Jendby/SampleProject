@@ -20,6 +20,7 @@ final class WelcomePresenter {
     var router: WelcomeRouterInput!
     weak var navigation: UINavigationController? = nil
     private var currentType:WelcomeType = .start
+    let transitor = StartCoordinator()
 }
 
 // MARK: - WelcomeModuleInput
@@ -27,6 +28,7 @@ extension WelcomePresenter: WelcomeModuleInput {
     func install(in window: UIWindow!) {
         let nav = UINavigationController(rootViewController: view.viewController)
         nav.isNavigationBarHidden = true
+        nav.delegate = transitor
         navigation = nav
         window.rootViewController = nav
     }
@@ -50,7 +52,7 @@ extension WelcomePresenter: WelcomeViewOutput {
     }
     
     func bottomBtnTapped() {
-        
+        router.createTabbar(from: self.view.viewController)
     }
     
     func firstAppear() {

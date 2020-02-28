@@ -1,5 +1,5 @@
 //
-//  WelcomeRouterInput.swift
+//  TabBarerRouter.swift
 //  SampleProject
 //
 //  Created by Eugene Smolyakov on 28/02/2020.
@@ -8,6 +8,9 @@
 
 import UIKit
 
-protocol WelcomeRouterInput {
-    func createTabbar(from vc: UIViewController)
+final class TabBarerRouter {
+}
+
+// MARK: - : TabBarerRouterInput
+extension TabBarerRouter: TabBarerRouterInput {
 }

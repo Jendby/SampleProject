@@ -13,4 +13,7 @@ final class WelcomeRouter {
 
 // MARK: - : WelcomeRouterInput
 extension WelcomeRouter: WelcomeRouterInput {
+    func createTabbar(from vc: UIViewController) {
+        TabBarerModule.create().present(from: vc)
+    }
 }
