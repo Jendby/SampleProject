@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  SmartSport
+
+  Created by Eugene Smolyakov on 23/01/2020.
+  Copyright © 2020 zvezda. All rights reserved.
+*/
+
+// common messages
+"Error" = "Error";
+"Close" = "Close";
+"Ok" = "Ok";
+"Cancel" = "Cancel";
+"Yes" = "Yes";
+"No" = "No";
+"Back" = "Back";
+"Next" = "Next";
+
+// Register
+"Start transforming your body now" = "Start transforming your body now";
+"Enter" = "Enter";
+"Face Authorization" = "Face Authorization";
+"Sign in without registration" = "Sign in without registration";
+"To get the code" = "To get the code";
+"Enter your phone number to receive a validation code" = "Enter your phone number to receive a validation code";
+"Check your SMS messages and enter the received code" = "Check your SMS messages and enter the received code";
+"Scan" = "Scan";
+"Look into the camera and rotate your head so that the scale fills up" = "Look into the camera and rotate your head so that the scale fills up";
+
+//Tabbarer
+"Events" = "Events";
+"Objects" = "Objects";
+"Calendar" = "Calendar";
+"Plans" = "Plans";
+"Profile" = "Profile";
+
+//FilterView
+"All categories" = "All categories";
+"Services" = "Services";
+"Distance" = "Distance";
+
+//Distance
+"Time" = "Time";
+"Clear" = "Clear";
+"Apply" = "Apply";
+
+//allCategories
+"All categories" = "All categories";
+"Group fitness" = "Group fitness";
+"Yoga, boxing, pilates, etc." = "Yoga, boxing, pilates, etc.";
+"Health and beauty" = "Health and beauty";
+"Massage, meditation, etc." = "Massage, meditation, etc.";
+"Training" = "Training";
+"Gym classes" = "Gym classes";
+
+//services
+"Find" = "Find";
+"Yoga" = "Yoga";
+"Cardio" = "Cardio";
+"Power" = "Power";
+"Single combat" = "Single combat";
+"Martial arts" = "Martial arts";
+"Swimming" = "Swimming";
+"Run" = "Run";
+"Bike" = "Bike";
+"Pilates" = "Pilates";
+"Dancing" = "Dancing";

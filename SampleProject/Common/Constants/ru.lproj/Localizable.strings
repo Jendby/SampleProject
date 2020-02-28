@@ -1,0 +1,67 @@
+/* 
+  Localizable.strings
+  SmartSport
+
+  Created by Eugene Smolyakov on 23/01/2020.
+  Copyright © 2020 zvezda. All rights reserved.
+*/
+
+// common messages
+"Error" = "Ошибка";
+"Close" = "Закрыть";
+"Ok" = "Ok";
+"Cancel" = "Отмена";
+"Yes" = "Да";
+"No" = "Нет";
+"Back" = "Назад";
+"Next" = "Далее";
+
+// Register
+"Start transforming your body now" = "Начните трансформацию своего тела прямо сейчас";
+"Enter" = "Вход";
+"Face Authorization" = "Авторизация по лицу";
+"Sign in without registration" = "Войти без регистрации";
+"To get the code" = "Получить код";
+"Enter your phone number to receive a validation code" = "Введите ваш номера телефона для получения кода валидации";
+"Check your SMS messages and enter the received code" = "Проверьте ваши СМС сообщения и введите полученный код";
+"Scan" = "Сканировать";
+"Look into the camera and rotate your head so that the scale fills up" = "Смотрите в камеру и вращайте головой так, чтобы шкала заполнилась";
+
+//Tabbarer
+"Events" = "Ивенты";
+"Objects" = "Объекты";
+"Calendar" = "Календарь";
+"Plans" = "Планы";
+"Profile" = "Профиль";
+
+//FilterView
+"All categories" = "Все категории";
+"Services" = "Услуги";
+"Distance" = "Расстояние";
+
+//Distance
+"Time" = "Время";
+"Clear" = "Очистить";
+"Apply" = "Применить";
+
+//allCategories
+"All categories" = "Все категории";
+"Group fitness" = "Групповой фитнесс";
+"Yoga, boxing, pilates, etc." = "Йога, бокс, пилатесс и тд.";
+"Health and beauty" = "Красота и здоровье";
+"Massage, meditation, etc." = "Массаж, медитация и тд.";
+"Training" = "Тренировки";
+"Gym classes" = "Занятия в тренажерном зале";
+
+//Services
+"Find" = "Найти";
+"Yoga" = "Йога";
+"Cardio" = "Кардио";
+"Power" = "Силовые";
+"Single combat" = "Единоборство";
+"Martial arts" = "Боевые искусства";
+"Swimming" = "Плавание";
+"Run" = "Бег";
+"Bike" = "Велосипед";
+"Pilates" = "Пилатес";
+"Dancing" = "Танцы";
