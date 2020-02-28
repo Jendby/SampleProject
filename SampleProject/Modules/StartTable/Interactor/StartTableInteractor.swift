@@ -16,7 +16,7 @@ final class StartTableInteractor {
 extension StartTableInteractor: StartTableInteractorInput  {
     func loadModels(with theme: Theme) {
         var mm = [StartTableModel]()
-        for item in 0...3 {
+        for item in 0...15 {
             mm.append(StartTableModel(id: "\(item)",
                                       about: "Sample",
                                       theme: theme))

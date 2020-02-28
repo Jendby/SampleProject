@@ -14,8 +14,6 @@ final class StartTableViewController: BaseTableViewController {
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tableview.backgroundColor = .clear
-        self.view.backgroundColor = .clear
         let item = UIBarButtonItem(title: "Список", style: .plain, target: self, action: nil)
         navigationItem.rightBarButtonItem = item
         output.viewIsReady()
