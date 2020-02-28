@@ -27,7 +27,7 @@ final class WelcomePresenter {
 extension WelcomePresenter: WelcomeModuleInput {
     func install(in window: UIWindow!) {
         let nav = UINavigationController(rootViewController: view.viewController)
-//        nav.isNavigationBarHidden = true
+        nav.isNavigationBarHidden = true
         nav.delegate = transitor
         navigation = nav
         window.rootViewController = nav
