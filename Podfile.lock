@@ -1,16 +1,30 @@
 PODS:
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
   - SVProgressHUD (2.2.5)
 
 DEPENDENCIES:
+  - RxCocoa (~> 5.0.0)
+  - RxSwift (~> 5.0.0)
   - SVProgressHUD (~> 2.2.5)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
     - SVProgressHUD
 
 SPEC CHECKSUMS:
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
-PODFILE CHECKSUM: 00c66df8beb250079fa7e836813a11220600d454
+PODFILE CHECKSUM: e19f466946b852ad128eae0e37b2a0210f948b86
 
 COCOAPODS: 1.8.0

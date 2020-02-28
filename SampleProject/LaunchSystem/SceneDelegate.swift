@@ -20,8 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = ViewController()
+        WelcomeModule.create().install(in: self.window)
         window?.makeKeyAndVisible()
+        AppDelegate.shared.window = window
+
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -51,7 +53,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
+    
 }
 
+extension SceneDelegate {
+    static var currentDelegate: SceneDelegate {
+        return UIApplication.shared.delegate as! SceneDelegate
+    }
+
+    static var currentWindow: UIWindow {
+        return currentDelegate.window!
+    }
+
+    static var currentApplication: UIApplication {
+        return UIApplication.shared
+    }
+}

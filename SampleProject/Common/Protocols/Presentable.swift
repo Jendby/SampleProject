@@ -8,7 +8,6 @@
 
 
 import UIKit
-import PanModal
 
 protocol Presentable: AlertProtocol {
 

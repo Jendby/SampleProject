@@ -15,7 +15,6 @@
 		74979858BE21C8C6065C0648 /* WelcomeModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F985AB89ADFBE0988015B3B /* WelcomeModuleOutput.swift */; };
 		8C45B96A240916910051E18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B969240916910051E18A /* AppDelegate.swift */; };
 		8C45B96C240916910051E18A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B96B240916910051E18A /* SceneDelegate.swift */; };
-		8C45B96E240916910051E18A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B96D240916910051E18A /* ViewController.swift */; };
 		8C45B973240916930051E18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C45B972240916930051E18A /* Assets.xcassets */; };
 		8C45B976240916930051E18A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C45B974240916930051E18A /* LaunchScreen.storyboard */; };
 		8C45B9852409258B0051E18A /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9832409258B0051E18A /* Theme.swift */; };
@@ -49,6 +48,7 @@
 		8C45B9CD240926C20051E18A /* CellAnyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9C7240926C20051E18A /* CellAnyModel.swift */; };
 		8C45B9CE240926C20051E18A /* MultipleSectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9C8240926C20051E18A /* MultipleSectionPresenter.swift */; };
 		8C45B9CF240926C20051E18A /* SingleSectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9C9240926C20051E18A /* SingleSectionPresenter.swift */; };
+		8C45B9D424092C850051E18A /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C45B9D324092C850051E18A /* Welcome.storyboard */; };
 		8DB213D9FF298E1B06FC82D7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D885BAAC755250A969F5C /* WelcomeViewController.swift */; };
 		9300DE61532614682D385286 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312A0E68DDB271ED84491A7 /* WelcomeInteractor.swift */; };
 		9DAA859CCA3D7688B7222887 /* WelcomeRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FAA1FDC6E7A6015389F8B /* WelcomeRouterInput.swift */; };
@@ -75,7 +75,6 @@
 		8C45B966240916910051E18A /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C45B969240916910051E18A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C45B96B240916910051E18A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C45B96D240916910051E18A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C45B972240916930051E18A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C45B975240916930051E18A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C45B977240916930051E18A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -111,6 +110,7 @@
 		8C45B9C7240926C20051E18A /* CellAnyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellAnyModel.swift; sourceTree = "<group>"; };
 		8C45B9C8240926C20051E18A /* MultipleSectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSectionPresenter.swift; sourceTree = "<group>"; };
 		8C45B9C9240926C20051E18A /* SingleSectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSectionPresenter.swift; sourceTree = "<group>"; };
+		8C45B9D324092C850051E18A /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 		8F985AB89ADFBE0988015B3B /* WelcomeModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeModuleOutput.swift; sourceTree = "<group>"; };
 		B1694AE7D3551F6F6A89238D /* WelcomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
 		BD1E66A8F3D084D59F862ED0 /* Pods-SampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject.release.xcconfig"; path = "Target Support Files/Pods-SampleProject/Pods-SampleProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -200,7 +200,6 @@
 				8C45B97F240924A10051E18A /* Resources */,
 				8C45B97E240924840051E18A /* Support */,
 				8C45B97D240924590051E18A /* LaunchSystem */,
-				8C45B96D240916910051E18A /* ViewController.swift */,
 				41E676E08D6127A03F0875FF /* Modules */,
 			);
 			path = SampleProject;
@@ -400,6 +399,7 @@
 				61D12679706F4E8A9A46FDDF /* WelcomeViewInput.swift */,
 				1FCA6194C5472A22412D30AA /* WelcomeViewOutput.swift */,
 				376D885BAAC755250A969F5C /* WelcomeViewController.swift */,
+				8C45B9D324092C850051E18A /* Welcome.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -475,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C45B976240916930051E18A /* LaunchScreen.storyboard in Resources */,
+				8C45B9D424092C850051E18A /* Welcome.storyboard in Resources */,
 				8C45B993240926800051E18A /* Localizable.strings in Resources */,
 				8C45B973240916930051E18A /* Assets.xcassets in Resources */,
 			);
@@ -529,7 +530,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C45B96E240916910051E18A /* ViewController.swift in Sources */,
 				8C45B96A240916910051E18A /* AppDelegate.swift in Sources */,
 				8C45B9CA240926C20051E18A /* CommonCell.swift in Sources */,
 				8C45B96C240916910051E18A /* SceneDelegate.swift in Sources */,
@@ -605,6 +605,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -665,6 +666,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -722,7 +724,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LY6Q63HDBG;
-				INFOPLIST_FILE = SampleProject/Info.plist;
+				INFOPLIST_FILE = SampleProject/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -741,7 +743,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LY6Q63HDBG;
-				INFOPLIST_FILE = SampleProject/Info.plist;
+				INFOPLIST_FILE = SampleProject/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

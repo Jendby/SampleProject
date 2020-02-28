@@ -9,6 +9,5 @@
 import UIKit
 
 protocol WelcomeModuleInput {
-    func present(from viewController: UIViewController)
-    func present()
+    func install(in window: UIWindow!)
 }

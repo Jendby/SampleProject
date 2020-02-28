@@ -40,7 +40,7 @@ struct Const {
     static let domain = ""
 
     struct notification {
-   
+        static let authErr = "AuthError"
     }
 
     struct cache {

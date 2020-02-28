@@ -7,4 +7,8 @@ target 'SampleProject' do
 	# UI
 	pod 'SVProgressHUD', '~> 2.2.5'
 
+	# productivity
+	pod 'RxSwift', '~> 5.0.0'
+	pod 'RxCocoa', '~> 5.0.0'
+
 end

@@ -24,3 +24,9 @@ extension WelcomeViewController: WelcomeViewInput {
     func setupInitialState() {
     }
 }
+
+extension WelcomeViewController: ViewControllerable {
+    static var storyBoardName: String {
+        return "Welcome"
+    }
+}

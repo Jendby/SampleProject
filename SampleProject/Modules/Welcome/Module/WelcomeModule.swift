@@ -13,8 +13,7 @@ final class WelcomeModule {
     class func create() -> WelcomeModuleInput {
         let router = WelcomeRouter()
 
-        let sb = UIStoryboard.init(name: "Welcome", bundle: nil)
-        let viewController = sb.instantiateViewController(withIdentifier: "WelcomeViewController") as! WelcomeViewController
+        let viewController = WelcomeViewController.create()
 
         let presenter = WelcomePresenter()
         presenter.view = viewController
