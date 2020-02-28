@@ -13,4 +13,7 @@ final class TabBarerRouter {
 
 // MARK: - : TabBarerRouterInput
 extension TabBarerRouter: TabBarerRouterInput {
+    func createStartTable(_ vc: UIViewController) {
+        StartTableModule.create().installIn(container: vc.view, vc: vc)
+    }
 }

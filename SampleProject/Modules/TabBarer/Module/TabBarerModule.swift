@@ -14,6 +14,7 @@ final class TabBarerModule {
         let router = TabBarerRouter()
 
         let viewController = TabBarerViewController()
+        
         let presenter = TabBarerPresenter()
         viewController.output = presenter
         presenter.router = router

@@ -1,5 +1,5 @@
 //
-//  TabBarerRouterInput.swift
+//  AboutTabRouter.swift
 //  SampleProject
 //
 //  Created by Eugene Smolyakov on 28/02/2020.
@@ -8,6 +8,9 @@
 
 import UIKit
 
-protocol TabBarerRouterInput {
-    func createStartTable(_ vc:UIViewController)
+final class AboutTabRouter {
+}
+
+// MARK: - : AboutTabRouterInput
+extension AboutTabRouter: AboutTabRouterInput {
 }

@@ -41,6 +41,14 @@ extension TabBarerPresenter: TabBarerViewOutput {
     }
 
     func loadViewOf(type: TabType, vc: UIViewController) {
+        if type == .first {
+            router.createStartTable(self.view.viewController)
+        }
+        if type == .second {
+            AboutTabModule.create().installIn(container: view.viewController
+                .view, vc: view.viewController)
+//            router.createStartTable(self.view.viewController)
+        }
 //routers
     }
 }

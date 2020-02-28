@@ -86,3 +86,11 @@ func defaultDescriptionFrom(dict: NSDictionary) -> String {
     }
     return ""
 }
+
+func randomColor() -> UIColor {
+    return UIColor(red: rand(), green: rand(), blue: rand(), alpha: 1.0)
+}
+
+private func rand() -> CGFloat {
+    return CGFloat(arc4random()) / CGFloat(UInt32.max)
+}

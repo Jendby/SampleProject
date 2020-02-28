@@ -27,9 +27,11 @@ final class TabUnloadedViewController: UIViewController {
 
         switch type {
         case .first:
-            tabBarItem.title = "First".localized
+            tabBarItem.title = "First"
+            tabBarItem.image = UIImage(systemName: "paperplane.fill")
         case .second:
-            tabBarItem.title = "Second".localized
+            tabBarItem.title = "Second"
+            tabBarItem.image = UIImage(systemName: "paperplane.fill")
         }
     }
 

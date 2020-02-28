@@ -1,5 +1,5 @@
 //
-//  TabBarerRouterInput.swift
+//  AboutTabModuleOutput.swift
 //  SampleProject
 //
 //  Created by Eugene Smolyakov on 28/02/2020.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-protocol TabBarerRouterInput {
-    func createStartTable(_ vc:UIViewController)
+protocol AboutTabModuleOutput: class {
+
 }
