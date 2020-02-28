@@ -16,3 +16,9 @@
 "Back" = "Back";
 "Next" = "Next";
 
+//Welcome
+"This is a start screen with a little animation." = "This is a start screen with a little animation.";
+"Register" = "Register";
+"This is a screen with entering a phone number" = "This is a screen with entering a phone number";
+"To get the code" = "To get the code";
+"Skip" = "Skip";

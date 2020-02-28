@@ -16,3 +16,9 @@
 "Back" = "Назад";
 "Next" = "Далее";
 
+//Welcome
+"This is a start screen with a little animation." = "Это стартовый экран с небольшой анимацией.";
+"Register" = "Зарегистрироваться";
+"This is a screen with entering a phone number" = "Это экран с вводом номера телефона";
+"To get the code" = "Получить";
+"Skip" = "Пропустить";

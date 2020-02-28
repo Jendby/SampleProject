@@ -10,4 +10,7 @@ import UIKit
 
 protocol WelcomeViewOutput {
     func viewIsReady()
+    func gradientBtnTapped()
+    func bottomBtnTapped()
+    func firstAppear()
 }

@@ -9,5 +9,11 @@
 import UIKit
 
 protocol WelcomeViewInput: class, Presentable {
-    func setupInitialState()
+    func scrollToIndex(index: Int)
+    func changeGradientButtonText(text: String)
+    func changeBottomButtonText(text: String)
+    func createTelephoneView()
+    func changeAboutText(text: String, fontSize:CGFloat)
+    func createFirstView()
+    func firstAppear()
 }
