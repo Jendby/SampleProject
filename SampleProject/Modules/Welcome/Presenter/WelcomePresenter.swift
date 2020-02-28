@@ -52,7 +52,7 @@ extension WelcomePresenter: WelcomeViewOutput {
     }
     
     func bottomBtnTapped() {
-        TabBarerModule.create().present(from: self.view.viewController)
+//        TabBarerModule.create().present(from: self.view.viewController)
     }
     
     func firstAppear() {

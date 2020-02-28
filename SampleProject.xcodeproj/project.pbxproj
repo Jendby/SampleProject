@@ -65,20 +65,6 @@
 		8C45B9CE240926C20051E18A /* MultipleSectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9C8240926C20051E18A /* MultipleSectionPresenter.swift */; };
 		8C45B9CF240926C20051E18A /* SingleSectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9C9240926C20051E18A /* SingleSectionPresenter.swift */; };
 		8C45B9D424092C850051E18A /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C45B9D324092C850051E18A /* Welcome.storyboard */; };
-		8C45B9E92409456C0051E18A /* TabBarerModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9D72409456C0051E18A /* TabBarerModuleOutput.swift */; };
-		8C45B9EA2409456C0051E18A /* TabBarerModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9D82409456C0051E18A /* TabBarerModuleInput.swift */; };
-		8C45B9EB2409456C0051E18A /* TabBarerModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9D92409456C0051E18A /* TabBarerModule.swift */; };
-		8C45B9EC2409456C0051E18A /* TabBarerPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9DB2409456C0051E18A /* TabBarerPresenterInput.swift */; };
-		8C45B9ED2409456C0051E18A /* TabBarerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9DC2409456C0051E18A /* TabBarerPresenter.swift */; };
-		8C45B9EE2409456C0051E18A /* TabUnloadedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9DE2409456C0051E18A /* TabUnloadedViewController.swift */; };
-		8C45B9EF2409456C0051E18A /* TabBarerViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9DF2409456C0051E18A /* TabBarerViewOutput.swift */; };
-		8C45B9F02409456C0051E18A /* TabBarerViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9E02409456C0051E18A /* TabBarerViewInput.swift */; };
-		8C45B9F12409456C0051E18A /* TabBarerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9E12409456C0051E18A /* TabBarerViewController.swift */; };
-		8C45B9F22409456C0051E18A /* TabBarerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9E32409456C0051E18A /* TabBarerInteractor.swift */; };
-		8C45B9F32409456C0051E18A /* TabBarerInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9E42409456C0051E18A /* TabBarerInteractorOutput.swift */; };
-		8C45B9F42409456C0051E18A /* TabBarerInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9E52409456C0051E18A /* TabBarerInteractorInput.swift */; };
-		8C45B9F52409456C0051E18A /* TabBarerRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9E72409456C0051E18A /* TabBarerRouterInput.swift */; };
-		8C45B9F62409456C0051E18A /* TabBarerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9E82409456C0051E18A /* TabBarerRouter.swift */; };
 		8C45B9F9240947DA0051E18A /* StartCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9F7240947DA0051E18A /* StartCoordinator.swift */; };
 		8C45B9FA240947DA0051E18A /* DissolveTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9F8240947DA0051E18A /* DissolveTransition.swift */; };
 		8C45B9FE240996960051E18A /* StartTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B9FD240996960051E18A /* StartTableCell.swift */; };
@@ -169,20 +155,6 @@
 		8C45B9C8240926C20051E18A /* MultipleSectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSectionPresenter.swift; sourceTree = "<group>"; };
 		8C45B9C9240926C20051E18A /* SingleSectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleSectionPresenter.swift; sourceTree = "<group>"; };
 		8C45B9D324092C850051E18A /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
-		8C45B9D72409456C0051E18A /* TabBarerModuleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerModuleOutput.swift; sourceTree = "<group>"; };
-		8C45B9D82409456C0051E18A /* TabBarerModuleInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerModuleInput.swift; sourceTree = "<group>"; };
-		8C45B9D92409456C0051E18A /* TabBarerModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerModule.swift; sourceTree = "<group>"; };
-		8C45B9DB2409456C0051E18A /* TabBarerPresenterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerPresenterInput.swift; sourceTree = "<group>"; };
-		8C45B9DC2409456C0051E18A /* TabBarerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerPresenter.swift; sourceTree = "<group>"; };
-		8C45B9DE2409456C0051E18A /* TabUnloadedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabUnloadedViewController.swift; sourceTree = "<group>"; };
-		8C45B9DF2409456C0051E18A /* TabBarerViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerViewOutput.swift; sourceTree = "<group>"; };
-		8C45B9E02409456C0051E18A /* TabBarerViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerViewInput.swift; sourceTree = "<group>"; };
-		8C45B9E12409456C0051E18A /* TabBarerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerViewController.swift; sourceTree = "<group>"; };
-		8C45B9E32409456C0051E18A /* TabBarerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerInteractor.swift; sourceTree = "<group>"; };
-		8C45B9E42409456C0051E18A /* TabBarerInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerInteractorOutput.swift; sourceTree = "<group>"; };
-		8C45B9E52409456C0051E18A /* TabBarerInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerInteractorInput.swift; sourceTree = "<group>"; };
-		8C45B9E72409456C0051E18A /* TabBarerRouterInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerRouterInput.swift; sourceTree = "<group>"; };
-		8C45B9E82409456C0051E18A /* TabBarerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarerRouter.swift; sourceTree = "<group>"; };
 		8C45B9F7240947DA0051E18A /* StartCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartCoordinator.swift; sourceTree = "<group>"; };
 		8C45B9F8240947DA0051E18A /* DissolveTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DissolveTransition.swift; sourceTree = "<group>"; };
 		8C45B9FD240996960051E18A /* StartTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTableCell.swift; sourceTree = "<group>"; };
@@ -242,7 +214,6 @@
 		41E676E08D6127A03F0875FF /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				8C45B9D52409456C0051E18A /* TabBarer */,
 				8D448EE5DF4AAB5B444108D6 /* Welcome */,
 				74B9611901FF9B64D62AE765 /* StartTable */,
 				B0654C0C1B95DCEFBA18AEEB /* AboutTab */,
@@ -516,67 +487,6 @@
 			path = cellModels;
 			sourceTree = "<group>";
 		};
-		8C45B9D52409456C0051E18A /* TabBarer */ = {
-			isa = PBXGroup;
-			children = (
-				8C45B9D62409456C0051E18A /* Module */,
-				8C45B9DA2409456C0051E18A /* Presenter */,
-				8C45B9DD2409456C0051E18A /* View */,
-				8C45B9E22409456C0051E18A /* Interactor */,
-				8C45B9E62409456C0051E18A /* Router */,
-			);
-			path = TabBarer;
-			sourceTree = "<group>";
-		};
-		8C45B9D62409456C0051E18A /* Module */ = {
-			isa = PBXGroup;
-			children = (
-				8C45B9D72409456C0051E18A /* TabBarerModuleOutput.swift */,
-				8C45B9D82409456C0051E18A /* TabBarerModuleInput.swift */,
-				8C45B9D92409456C0051E18A /* TabBarerModule.swift */,
-			);
-			path = Module;
-			sourceTree = "<group>";
-		};
-		8C45B9DA2409456C0051E18A /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				8C45B9DB2409456C0051E18A /* TabBarerPresenterInput.swift */,
-				8C45B9DC2409456C0051E18A /* TabBarerPresenter.swift */,
-			);
-			path = Presenter;
-			sourceTree = "<group>";
-		};
-		8C45B9DD2409456C0051E18A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				8C45B9DE2409456C0051E18A /* TabUnloadedViewController.swift */,
-				8C45B9DF2409456C0051E18A /* TabBarerViewOutput.swift */,
-				8C45B9E02409456C0051E18A /* TabBarerViewInput.swift */,
-				8C45B9E12409456C0051E18A /* TabBarerViewController.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		8C45B9E22409456C0051E18A /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				8C45B9E32409456C0051E18A /* TabBarerInteractor.swift */,
-				8C45B9E42409456C0051E18A /* TabBarerInteractorOutput.swift */,
-				8C45B9E52409456C0051E18A /* TabBarerInteractorInput.swift */,
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		8C45B9E62409456C0051E18A /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				8C45B9E72409456C0051E18A /* TabBarerRouterInput.swift */,
-				8C45B9E82409456C0051E18A /* TabBarerRouter.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		8C45B9FB240996780051E18A /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -832,23 +742,17 @@
 				6AC166F2A29C231BD298DEBC /* WelcomeViewInput.swift in Sources */,
 				8C45B9BB240926BA0051E18A /* BaseCollectionViewController.swift in Sources */,
 				634CEA2AC2926EDDE959E05B /* WelcomeViewOutput.swift in Sources */,
-				8C45B9EC2409456C0051E18A /* TabBarerPresenterInput.swift in Sources */,
 				8C45B9F9240947DA0051E18A /* StartCoordinator.swift in Sources */,
-				8C45B9F12409456C0051E18A /* TabBarerViewController.swift in Sources */,
 				8C45B989240925D20051E18A /* ServicesAssembler.swift in Sources */,
 				8C45B9CB240926C20051E18A /* CommonCellModel.swift in Sources */,
-				8C45B9EB2409456C0051E18A /* TabBarerModule.swift in Sources */,
 				8C45B9A9240926A10051E18A /* ViewControllerable.swift in Sources */,
-				8C45B9E92409456C0051E18A /* TabBarerModuleOutput.swift in Sources */,
 				8C45B9BE240926BB0051E18A /* BaseTableViewController.swift in Sources */,
-				8C45B9ED2409456C0051E18A /* TabBarerPresenter.swift in Sources */,
 				8C45B9AE240926A10051E18A /* IMovePath.swift in Sources */,
 				8C45B9AD240926A10051E18A /* IIndexPathCount.swift in Sources */,
 				8C45B9862409258B0051E18A /* ThemeManager.swift in Sources */,
 				8C45B9BD240926BA0051E18A /* BaseViewController.swift in Sources */,
 				8C45B99A2409268D0051E18A /* UITableView+Model.swift in Sources */,
 				8DB213D9FF298E1B06FC82D7 /* WelcomeViewController.swift in Sources */,
-				8C45B9EE2409456C0051E18A /* TabUnloadedViewController.swift in Sources */,
 				A736F87EB35A022F2A01F79A /* WelcomePresenterInput.swift in Sources */,
 				8C45B9B1240926AE0051E18A /* SetupableViewCaller.swift in Sources */,
 				8C45B9FA240947DA0051E18A /* DissolveTransition.swift in Sources */,
@@ -861,16 +765,11 @@
 				8C45B9CE240926C20051E18A /* MultipleSectionPresenter.swift in Sources */,
 				DB64CEE79891FC0B397228F1 /* WelcomeInteractorOutput.swift in Sources */,
 				8C45B9CF240926C20051E18A /* SingleSectionPresenter.swift in Sources */,
-				8C45B9F02409456C0051E18A /* TabBarerViewInput.swift in Sources */,
 				8C45B98C240926660051E18A /* ErrableOutput.swift in Sources */,
 				8C45B9CC240926C20051E18A /* EmptyTableModel.swift in Sources */,
-				8C45B9EF2409456C0051E18A /* TabBarerViewOutput.swift in Sources */,
 				8C45B99C2409268D0051E18A /* String+Localization.swift in Sources */,
 				8C45B9BC240926BA0051E18A /* CellOperation.swift in Sources */,
 				9300DE61532614682D385286 /* WelcomeInteractor.swift in Sources */,
-				8C45B9F42409456C0051E18A /* TabBarerInteractorInput.swift in Sources */,
-				8C45B9F32409456C0051E18A /* TabBarerInteractorOutput.swift in Sources */,
-				8C45B9EA2409456C0051E18A /* TabBarerModuleInput.swift in Sources */,
 				8C45B9CD240926C20051E18A /* CellAnyModel.swift in Sources */,
 				9DAA859CCA3D7688B7222887 /* WelcomeRouterInput.swift in Sources */,
 				8C45B99B2409268D0051E18A /* UIFont+SF.swift in Sources */,
@@ -878,16 +777,13 @@
 				8C45B99E2409268D0051E18A /* UICollectionView+Model.swift in Sources */,
 				8C45B9AB240926A10051E18A /* Presentable.swift in Sources */,
 				D1E7ED1A3111F4F70A9E03E9 /* WelcomeRouter.swift in Sources */,
-				8C45B9F52409456C0051E18A /* TabBarerRouterInput.swift in Sources */,
 				5B1B3655A3566766A0E06118 /* WelcomeModuleInput.swift in Sources */,
 				74979858BE21C8C6065C0648 /* WelcomeModuleOutput.swift in Sources */,
 				8C45BA02240997D20051E18A /* StartTableCellModel.swift in Sources */,
 				C2883457BAA42794B69B0576 /* WelcomeModule.swift in Sources */,
 				8C45B9852409258B0051E18A /* Theme.swift in Sources */,
 				8C45B9AC240926A10051E18A /* AlertProtocol.swift in Sources */,
-				8C45B9F22409456C0051E18A /* TabBarerInteractor.swift in Sources */,
 				8C45B9AA240926A10051E18A /* ViewModelProtocols.swift in Sources */,
-				8C45B9F62409456C0051E18A /* TabBarerRouter.swift in Sources */,
 				8BDE8E3CE36EC679513303E3 /* StartTableViewInput.swift in Sources */,
 				85A4B775A86671D62D1A7DE0 /* StartTableViewOutput.swift in Sources */,
 				A2E455FE5432DA1EC4C3840B /* StartTableViewController.swift in Sources */,
