@@ -15,26 +15,32 @@
 		17B0958D5060CE179F5D0473 /* AboutTabModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A1A212543F71BCFA2EEB /* AboutTabModule.swift */; };
 		180070AC51640D52A4A09836 /* StartTableModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F36AB7400E02F31E2EB2808 /* StartTableModuleOutput.swift */; };
 		1BC131D41B02747850EA2BBF /* TabBarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976B551E14A5E5D22BCC9EA /* TabBarModuleInput.swift */; };
+		32E28834556DFFFFF43A1E16 /* CameraViewModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F64441B8F7789176F52A69 /* CameraViewModuleInput.swift */; };
 		37654083612956A4A50672C1 /* StartTableInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AEEE0B979B0D91AD1024 /* StartTableInteractorOutput.swift */; };
 		3D7F4BA68A966A6DADC4B6F6 /* AboutTabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB949D3897E8208F62D589DC /* AboutTabRouter.swift */; };
 		43D188BD35002498FA24E903 /* AboutTabRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E51637392CAACC48D174CC /* AboutTabRouterInput.swift */; };
 		4531F1B66039E2B7491ECEC8 /* StartTablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9158141FEE25801C55BEB7 /* StartTablePresenter.swift */; };
 		4533AF65C7BC5BC180B74247 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1694AE7D3551F6F6A89238D /* WelcomePresenter.swift */; };
 		4E35C0B579AC7E47262C6E92 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3BC70420418CEDA1E827B /* TabBarViewController.swift */; };
+		516A3EDB7C1AAADDF1BB0EDC /* CameraViewRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9CB3C903161DC0A384C60 /* CameraViewRouterInput.swift */; };
 		51B7EDEA5FBD8543E11A48D8 /* TabBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AF8EBE810A32654F3FD39 /* TabBarViewInput.swift */; };
 		5AAC4F9F66EB2E4FFD472099 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E3E8DE39D89A95EA6B507 /* TabBarPresenter.swift */; };
 		5B1B3655A3566766A0E06118 /* WelcomeModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CEFFF35BC63486F55990E /* WelcomeModuleInput.swift */; };
 		5FD21FA274A2A414D8737C13 /* WelcomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EE4555ABBA9E35C4C898D5 /* WelcomeInteractorInput.swift */; };
+		5FF8C993BCBD6B402F8FBDB5 /* CameraViewModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD5AB658A2A2229B53CC95 /* CameraViewModuleOutput.swift */; };
 		634CEA2AC2926EDDE959E05B /* WelcomeViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA6194C5472A22412D30AA /* WelcomeViewOutput.swift */; };
+		636B1584F9B20B2EC911D512 /* CameraViewInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B34BE7BFAC012D1CDCCA7 /* CameraViewInteractorInput.swift */; };
 		63E4D65F2F671B339CD4D4B5 /* StartTableRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D26B93FF62393E3C51A963 /* StartTableRouterInput.swift */; };
 		6AC166F2A29C231BD298DEBC /* WelcomeViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D12679706F4E8A9A46FDDF /* WelcomeViewInput.swift */; };
 		6AD95860F875EF29B3E3D35B /* StartTablePresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B4A4CA4C8E661C2889E1FD4 /* StartTablePresenterInput.swift */; };
+		6D6707CEF6882F83F30E94C2 /* CameraViewPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970BA9592215343AE780EDD /* CameraViewPresenterInput.swift */; };
 		6E46D68444A90CC0E8C24E11 /* StartTableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CA20B0F70163F32F4D2BB6 /* StartTableInteractor.swift */; };
 		6F60E9A91624253C53D751A8 /* AboutTabInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310758EDE095688D40E69721 /* AboutTabInteractor.swift */; };
 		743636A5D81165D1DE589C2E /* TabBarRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D02DC0B39ED69A8FE11E6B3 /* TabBarRouterInput.swift */; };
 		74979858BE21C8C6065C0648 /* WelcomeModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F985AB89ADFBE0988015B3B /* WelcomeModuleOutput.swift */; };
 		75346CB2A3CF3ABA844E3227 /* AboutTabViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 515621216C548530676F10FB /* AboutTabViewOutput.swift */; };
 		7C9A073587502BD1093CDBA6 /* AboutTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5762E494DA15C896A1FB96E /* AboutTabViewController.swift */; };
+		81B14B605135A5A83880BF1F /* CameraViewViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD3092B431A8C38F3093602 /* CameraViewViewOutput.swift */; };
 		85A4B775A86671D62D1A7DE0 /* StartTableViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4017E89E2EF2F63C9C9BAB4A /* StartTableViewOutput.swift */; };
 		8BDE8E3CE36EC679513303E3 /* StartTableViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC709AA0361443C3A08ABCE8 /* StartTableViewInput.swift */; };
 		8C45B96A240916910051E18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B969240916910051E18A /* AppDelegate.swift */; };
@@ -79,18 +85,26 @@
 		8C45BA00240996E80051E18A /* StartTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C45B9FF240996E80051E18A /* StartTableCell.xib */; };
 		8C45BA02240997D20051E18A /* StartTableCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BA01240997D20051E18A /* StartTableCellModel.swift */; };
 		8C45BC5D2409B8970051E18A /* TabUnloadedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC5C2409B8970051E18A /* TabUnloadedViewController.swift */; };
+		8C45BC63240CE74D0051E18A /* CamConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC62240CE74D0051E18A /* CamConnect.swift */; };
+		8C45BC65240CE75F0051E18A /* CamConnectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC64240CE75F0051E18A /* CamConnectService.swift */; };
 		8DB213D9FF298E1B06FC82D7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D885BAAC755250A969F5C /* WelcomeViewController.swift */; };
 		917CD3AEC3D35FDA85C5D89E /* StartTableRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC0B832697F8B1992653AA /* StartTableRouter.swift */; };
+		9198B65550650389D9718F21 /* CameraViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8555F6F59484F1AC0DC332C /* CameraViewRouter.swift */; };
 		9300DE61532614682D385286 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312A0E68DDB271ED84491A7 /* WelcomeInteractor.swift */; };
 		9B9FBD2873714A6153EAE7F8 /* TabBarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B465B4E6029ECFBF287AC9 /* TabBarViewOutput.swift */; };
 		9DAA859CCA3D7688B7222887 /* WelcomeRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FAA1FDC6E7A6015389F8B /* WelcomeRouterInput.swift */; };
+		A2DD706E220C31A7F4B94336 /* CameraViewInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA3CA96774442AAA02D4B6 /* CameraViewInteractorOutput.swift */; };
 		A2E455FE5432DA1EC4C3840B /* StartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B1430CB8EC2F6CE3E49F7 /* StartTableViewController.swift */; };
 		A736F87EB35A022F2A01F79A /* WelcomePresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154EBABC33C886E9B46AEA0 /* WelcomePresenterInput.swift */; };
+		AAF13008DDEC9B6888C77264 /* CameraViewViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B122A1DA48F948ADA09A0159 /* CameraViewViewInput.swift */; };
 		AF9D9C50C8ED22314D0D6803 /* Pods_SampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2320EEBF52F72AA93A7701CF /* Pods_SampleProject.framework */; };
 		B207EA4B295136D367CBE77C /* AboutTabViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B39FD0DB73C0FEDAB79DD /* AboutTabViewInput.swift */; };
+		B91B576138B04FFE99CA19CA /* CameraViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A276041A0136C491D5503C /* CameraViewViewController.swift */; };
 		C2883457BAA42794B69B0576 /* WelcomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAEEDD2BD1308D34CBA84B /* WelcomeModule.swift */; };
 		C2CC99964580106586309DAD /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22627AE46846FC368284868 /* TabBarRouter.swift */; };
 		D1E7ED1A3111F4F70A9E03E9 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258CC766F218EE5AE2EE793 /* WelcomeRouter.swift */; };
+		D6FFE684645967E69C4F85C2 /* CameraViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44AD28C3EEB7D5A78B3FC2 /* CameraViewModule.swift */; };
+		D7E8897A04F348DD09C435E7 /* CameraViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17BBC9BECDF4095B399C8 /* CameraViewPresenter.swift */; };
 		DAF8A9490CD8DC116AC2307C /* AboutTabInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C913604A905664A6F58F703 /* AboutTabInteractorInput.swift */; };
 		DB64CEE79891FC0B397228F1 /* WelcomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F4E218495C202213F6E9EB /* WelcomeInteractorOutput.swift */; };
 		DBB4EA54E3158C51AE41EC1B /* AboutTabPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243464CA9FF90B24E8B9225 /* AboutTabPresenterInput.swift */; };
@@ -100,6 +114,7 @@
 		F6B702E508C5A87E77C52504 /* TabBarPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD9BB06924FCAC4231CBB9 /* TabBarPresenterInput.swift */; };
 		F90D0579E1FEF8B5DBF9B9FF /* TabBarInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E5E6F08671846F81C5688 /* TabBarInteractorInput.swift */; };
 		FBFC1DAEDB128370CE1BF838 /* StartTableModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A28F3AD594C2E444CF310 /* StartTableModuleInput.swift */; };
+		FC60F703F640507B29CCB36A /* CameraViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185444D79689D76F8957ADD /* CameraViewInteractor.swift */; };
 		FD20901787D46BABC2CBBD12 /* StartTableModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96BB928AEAFD54FA817D6DE /* StartTableModule.swift */; };
 		FDB0616F5287D7888B4EB510 /* TabBarInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D3C846B19319C47BF4ED2D /* TabBarInteractorOutput.swift */; };
 /* End PBXBuildFile section */
@@ -113,19 +128,23 @@
 		20B465B4E6029ECFBF287AC9 /* TabBarViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarViewOutput.swift; sourceTree = "<group>"; };
 		2258CC766F218EE5AE2EE793 /* WelcomeRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
 		2320EEBF52F72AA93A7701CF /* Pods_SampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2970BA9592215343AE780EDD /* CameraViewPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewPresenterInput.swift; sourceTree = "<group>"; };
 		2AEC0B832697F8B1992653AA /* StartTableRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableRouter.swift; sourceTree = "<group>"; };
 		30E51637392CAACC48D174CC /* AboutTabRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabRouterInput.swift; sourceTree = "<group>"; };
 		310758EDE095688D40E69721 /* AboutTabInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabInteractor.swift; sourceTree = "<group>"; };
 		33AAB5B8E280D1C3B72EE471 /* AboutTabModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabModuleOutput.swift; sourceTree = "<group>"; };
 		376D885BAAC755250A969F5C /* WelcomeViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		37A140601DCFE6A4E3F9C218 /* AboutTabPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabPresenter.swift; sourceTree = "<group>"; };
+		3C8B34BE7BFAC012D1CDCCA7 /* CameraViewInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewInteractorInput.swift; sourceTree = "<group>"; };
 		4017E89E2EF2F63C9C9BAB4A /* StartTableViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableViewOutput.swift; sourceTree = "<group>"; };
 		409B39FD0DB73C0FEDAB79DD /* AboutTabViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabViewInput.swift; sourceTree = "<group>"; };
 		44FE6E85D90F3594E244B7DA /* Pods-SampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject.debug.xcconfig"; path = "Target Support Files/Pods-SampleProject/Pods-SampleProject.debug.xcconfig"; sourceTree = "<group>"; };
 		484E5E6F08671846F81C5688 /* TabBarInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarInteractorInput.swift; sourceTree = "<group>"; };
 		515621216C548530676F10FB /* AboutTabViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabViewOutput.swift; sourceTree = "<group>"; };
+		56A276041A0136C491D5503C /* CameraViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewViewController.swift; sourceTree = "<group>"; };
 		59F4E218495C202213F6E9EB /* WelcomeInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeInteractorOutput.swift; sourceTree = "<group>"; };
 		5D02DC0B39ED69A8FE11E6B3 /* TabBarRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarRouterInput.swift; sourceTree = "<group>"; };
+		5E44AD28C3EEB7D5A78B3FC2 /* CameraViewModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewModule.swift; sourceTree = "<group>"; };
 		61D12679706F4E8A9A46FDDF /* WelcomeViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeViewInput.swift; sourceTree = "<group>"; };
 		6312A0E68DDB271ED84491A7 /* WelcomeInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeInteractor.swift; sourceTree = "<group>"; };
 		63D3C846B19319C47BF4ED2D /* TabBarInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarInteractorOutput.swift; sourceTree = "<group>"; };
@@ -133,6 +152,7 @@
 		7243464CA9FF90B24E8B9225 /* AboutTabPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabPresenterInput.swift; sourceTree = "<group>"; };
 		77EE4555ABBA9E35C4C898D5 /* WelcomeInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeInteractorInput.swift; sourceTree = "<group>"; };
 		804FAA1FDC6E7A6015389F8B /* WelcomeRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeRouterInput.swift; sourceTree = "<group>"; };
+		8185444D79689D76F8957ADD /* CameraViewInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewInteractor.swift; sourceTree = "<group>"; };
 		87D790F73919043FAB08AE8A /* AboutTabModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabModuleInput.swift; sourceTree = "<group>"; };
 		8C45B966240916910051E18A /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C45B969240916910051E18A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,19 +199,28 @@
 		8C45B9FF240996E80051E18A /* StartTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartTableCell.xib; sourceTree = "<group>"; };
 		8C45BA01240997D20051E18A /* StartTableCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTableCellModel.swift; sourceTree = "<group>"; };
 		8C45BC5C2409B8970051E18A /* TabUnloadedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabUnloadedViewController.swift; sourceTree = "<group>"; };
+		8C45BC62240CE74D0051E18A /* CamConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamConnect.swift; sourceTree = "<group>"; };
+		8C45BC64240CE75F0051E18A /* CamConnectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamConnectService.swift; sourceTree = "<group>"; };
 		8C913604A905664A6F58F703 /* AboutTabInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabInteractorInput.swift; sourceTree = "<group>"; };
 		8F36AB7400E02F31E2EB2808 /* StartTableModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableModuleOutput.swift; sourceTree = "<group>"; };
 		8F985AB89ADFBE0988015B3B /* WelcomeModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeModuleOutput.swift; sourceTree = "<group>"; };
 		99D26B93FF62393E3C51A963 /* StartTableRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableRouterInput.swift; sourceTree = "<group>"; };
+		9CD3092B431A8C38F3093602 /* CameraViewViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewViewOutput.swift; sourceTree = "<group>"; };
+		A0D17BBC9BECDF4095B399C8 /* CameraViewPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewPresenter.swift; sourceTree = "<group>"; };
 		A3520211B289F4E99439B9B7 /* TabBarModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarModule.swift; sourceTree = "<group>"; };
+		A4CD5AB658A2A2229B53CC95 /* CameraViewModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewModuleOutput.swift; sourceTree = "<group>"; };
 		A6CA20B0F70163F32F4D2BB6 /* StartTableInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableInteractor.swift; sourceTree = "<group>"; };
 		B02E3E8DE39D89A95EA6B507 /* TabBarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
+		B122A1DA48F948ADA09A0159 /* CameraViewViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewViewInput.swift; sourceTree = "<group>"; };
 		B1694AE7D3551F6F6A89238D /* WelcomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
 		B58AF8EBE810A32654F3FD39 /* TabBarViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarViewInput.swift; sourceTree = "<group>"; };
+		B8555F6F59484F1AC0DC332C /* CameraViewRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewRouter.swift; sourceTree = "<group>"; };
 		BD1E66A8F3D084D59F862ED0 /* Pods-SampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject.release.xcconfig"; path = "Target Support Files/Pods-SampleProject/Pods-SampleProject.release.xcconfig"; sourceTree = "<group>"; };
 		BE407CA3CCED43C914ED7906 /* TabBarModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarModuleOutput.swift; sourceTree = "<group>"; };
 		BFFD9BB06924FCAC4231CBB9 /* TabBarPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarPresenterInput.swift; sourceTree = "<group>"; };
+		C1EA3CA96774442AAA02D4B6 /* CameraViewInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewInteractorOutput.swift; sourceTree = "<group>"; };
 		C5762E494DA15C896A1FB96E /* AboutTabViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabViewController.swift; sourceTree = "<group>"; };
+		C6F64441B8F7789176F52A69 /* CameraViewModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewModuleInput.swift; sourceTree = "<group>"; };
 		CED3BC70420418CEDA1E827B /* TabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		D22627AE46846FC368284868 /* TabBarRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
 		D2C5A1A212543F71BCFA2EEB /* AboutTabModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabModule.swift; sourceTree = "<group>"; };
@@ -203,6 +232,7 @@
 		EC709AA0361443C3A08ABCE8 /* StartTableViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableViewInput.swift; sourceTree = "<group>"; };
 		EDF3AEEE0B979B0D91AD1024 /* StartTableInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableInteractorOutput.swift; sourceTree = "<group>"; };
 		F154EBABC33C886E9B46AEA0 /* WelcomePresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomePresenterInput.swift; sourceTree = "<group>"; };
+		F4D9CB3C903161DC0A384C60 /* CameraViewRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewRouterInput.swift; sourceTree = "<group>"; };
 		F67B1430CB8EC2F6CE3E49F7 /* StartTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableViewController.swift; sourceTree = "<group>"; };
 		FB949D3897E8208F62D589DC /* AboutTabRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -256,8 +286,30 @@
 				74B9611901FF9B64D62AE765 /* StartTable */,
 				B0654C0C1B95DCEFBA18AEEB /* AboutTab */,
 				E7505CAD5103EB862CD70EAA /* TabBar */,
+				D8030063DCDDA6792BC3ECF7 /* CameraView */,
 			);
 			path = Modules;
+			sourceTree = "<group>";
+		};
+		458A87D0046FB4CFCBDA5B64 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F4D9CB3C903161DC0A384C60 /* CameraViewRouterInput.swift */,
+				B8555F6F59484F1AC0DC332C /* CameraViewRouter.swift */,
+			);
+			name = Router;
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4A3E0DBA3CF789F413C0F7AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B122A1DA48F948ADA09A0159 /* CameraViewViewInput.swift */,
+				9CD3092B431A8C38F3093602 /* CameraViewViewOutput.swift */,
+				56A276041A0136C491D5503C /* CameraViewViewController.swift */,
+			);
+			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		4E0BAE948D6DC85281CF9BCA /* Presenter */ = {
@@ -303,6 +355,17 @@
 				2320EEBF52F72AA93A7701CF /* Pods_SampleProject.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E65D400A291260BA65A88AA /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				3C8B34BE7BFAC012D1CDCCA7 /* CameraViewInteractorInput.swift */,
+				C1EA3CA96774442AAA02D4B6 /* CameraViewInteractorOutput.swift */,
+				8185444D79689D76F8957ADD /* CameraViewInteractor.swift */,
+			);
+			name = Interactor;
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		6132A810E91DC615C0ECE4B6 /* Module */ = {
@@ -398,6 +461,7 @@
 		8C45B980240925300051E18A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8C45BC61240CE71A0051E18A /* CameraConnect */,
 				8C45B987240925C10051E18A /* Assembler */,
 			);
 			path = Services;
@@ -552,6 +616,15 @@
 			path = cellModel;
 			sourceTree = "<group>";
 		};
+		8C45BC61240CE71A0051E18A /* CameraConnect */ = {
+			isa = PBXGroup;
+			children = (
+				8C45BC62240CE74D0051E18A /* CamConnect.swift */,
+				8C45BC64240CE75F0051E18A /* CamConnectService.swift */,
+			);
+			path = CameraConnect;
+			sourceTree = "<group>";
+		};
 		8D448EE5DF4AAB5B444108D6 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
@@ -572,6 +645,16 @@
 				D96BB928AEAFD54FA817D6DE /* StartTableModule.swift */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		A012EE04196EB93011EB4457 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				2970BA9592215343AE780EDD /* CameraViewPresenterInput.swift */,
+				A0D17BBC9BECDF4095B399C8 /* CameraViewPresenter.swift */,
+			);
+			name = Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		A4EBB3D9C3AD9787B274E428 /* Interactor */ = {
@@ -646,6 +729,19 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		D8030063DCDDA6792BC3ECF7 /* CameraView */ = {
+			isa = PBXGroup;
+			children = (
+				4A3E0DBA3CF789F413C0F7AB /* View */,
+				A012EE04196EB93011EB4457 /* Presenter */,
+				5E65D400A291260BA65A88AA /* Interactor */,
+				458A87D0046FB4CFCBDA5B64 /* Router */,
+				F8003979DCC0CC8DF7C2A98A /* Module */,
+			);
+			name = CameraView;
+			path = CameraView;
+			sourceTree = "<group>";
+		};
 		E1E0B11AD1A7CFE06686AE57 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -687,6 +783,17 @@
 				2258CC766F218EE5AE2EE793 /* WelcomeRouter.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		F8003979DCC0CC8DF7C2A98A /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				C6F64441B8F7789176F52A69 /* CameraViewModuleInput.swift */,
+				A4CD5AB658A2A2229B53CC95 /* CameraViewModuleOutput.swift */,
+				5E44AD28C3EEB7D5A78B3FC2 /* CameraViewModule.swift */,
+			);
+			name = Module;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		FA53A088834C7675368B7BF0 /* Interactor */ = {
@@ -840,6 +947,7 @@
 				8C45B9BE240926BB0051E18A /* BaseTableViewController.swift in Sources */,
 				8C45B9AE240926A10051E18A /* IMovePath.swift in Sources */,
 				8C45B9AD240926A10051E18A /* IIndexPathCount.swift in Sources */,
+				8C45BC63240CE74D0051E18A /* CamConnect.swift in Sources */,
 				8C45B9862409258B0051E18A /* ThemeManager.swift in Sources */,
 				8C45B9BD240926BA0051E18A /* BaseViewController.swift in Sources */,
 				8C45B99A2409268D0051E18A /* UITableView+Model.swift in Sources */,
@@ -895,6 +1003,7 @@
 				DBB4EA54E3158C51AE41EC1B /* AboutTabPresenterInput.swift in Sources */,
 				0F98A926C51A143EB0CBA79B /* AboutTabPresenter.swift in Sources */,
 				DAF8A9490CD8DC116AC2307C /* AboutTabInteractorInput.swift in Sources */,
+				8C45BC65240CE75F0051E18A /* CamConnectService.swift in Sources */,
 				0AB40255EB66FB990989F0C7 /* AboutTabInteractorOutput.swift in Sources */,
 				6F60E9A91624253C53D751A8 /* AboutTabInteractor.swift in Sources */,
 				43D188BD35002498FA24E903 /* AboutTabRouterInput.swift in Sources */,
@@ -915,6 +1024,19 @@
 				1BC131D41B02747850EA2BBF /* TabBarModuleInput.swift in Sources */,
 				037DE0BC732581EB80F3B864 /* TabBarModuleOutput.swift in Sources */,
 				0EB7C16F95B25066DA20CB2C /* TabBarModule.swift in Sources */,
+				AAF13008DDEC9B6888C77264 /* CameraViewViewInput.swift in Sources */,
+				81B14B605135A5A83880BF1F /* CameraViewViewOutput.swift in Sources */,
+				B91B576138B04FFE99CA19CA /* CameraViewViewController.swift in Sources */,
+				6D6707CEF6882F83F30E94C2 /* CameraViewPresenterInput.swift in Sources */,
+				D7E8897A04F348DD09C435E7 /* CameraViewPresenter.swift in Sources */,
+				636B1584F9B20B2EC911D512 /* CameraViewInteractorInput.swift in Sources */,
+				A2DD706E220C31A7F4B94336 /* CameraViewInteractorOutput.swift in Sources */,
+				FC60F703F640507B29CCB36A /* CameraViewInteractor.swift in Sources */,
+				516A3EDB7C1AAADDF1BB0EDC /* CameraViewRouterInput.swift in Sources */,
+				9198B65550650389D9718F21 /* CameraViewRouter.swift in Sources */,
+				32E28834556DFFFFF43A1E16 /* CameraViewModuleInput.swift in Sources */,
+				5FF8C993BCBD6B402F8FBDB5 /* CameraViewModuleOutput.swift in Sources */,
+				D6FFE684645967E69C4F85C2 /* CameraViewModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

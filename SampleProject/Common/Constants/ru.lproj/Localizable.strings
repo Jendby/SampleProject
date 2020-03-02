@@ -22,3 +22,12 @@
 "This is a screen with entering a phone number" = "Это экран с вводом номера телефона";
 "To get the code" = "Получить";
 "Skip" = "Пропустить";
+
+//Services
+"Motion Tracking is not available on your device!" = "Слежение за движением не доступно на Вашем устройстве!";
+"Failed to get the camera device" = "Ошибка в доступе к камере, предоставьте доступ в настройках";
+"Enable camera" = "Включить камеру";
+"Disable camera" = "Выключить камеру";
+
+//StartTable
+"List" = "Список";

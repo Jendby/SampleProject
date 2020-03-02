@@ -14,6 +14,7 @@ final class StartTablePresenter: SingleSectionPresenter {
     var interactor: StartTableInteractorInput! {
         didSet {
             source = interactor
+            delegate = self
         }
     }
     var router: StartTableRouterInput!
@@ -43,4 +44,14 @@ extension StartTablePresenter: StartTableViewOutput {
 
 // MARK: - StartTableInteractorOutput
 extension StartTablePresenter: StartTableInteractorOutput {
+}
+
+extension StartTablePresenter: SingleSectionPresenterDelegate {
+    func modelChanged(model: CellAnyModel, index: Int) {
+        if let m = model as? StartTableModel {
+            if m.type == .cameraView {
+                router.showCameraView(from: self.view.viewController)
+            }
+        }
+    }
 }

@@ -13,4 +13,7 @@ final class StartTableRouter {
 
 // MARK: - : StartTableRouterInput
 extension StartTableRouter: StartTableRouterInput {
+    func showCameraView(from vc: UIViewController) {
+        CameraViewModule.create().present(from: vc)
+    }
 }

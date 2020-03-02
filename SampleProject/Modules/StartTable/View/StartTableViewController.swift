@@ -14,8 +14,7 @@ final class StartTableViewController: BaseTableViewController {
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        let item = UIBarButtonItem(title: "Список", style: .plain, target: self, action: nil)
-        navigationItem.rightBarButtonItem = item
+        self.title = "List".localized
         output.viewIsReady()
     }
 }

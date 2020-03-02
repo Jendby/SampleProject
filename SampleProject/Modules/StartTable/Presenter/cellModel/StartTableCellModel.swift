@@ -14,6 +14,7 @@ struct StartTableModel: StartTableCellModel{
     var id: String
     let about: String
     let theme: Theme
+    let type: StartTableCellType
     
     func setup(cell: StartTableCell) {
         

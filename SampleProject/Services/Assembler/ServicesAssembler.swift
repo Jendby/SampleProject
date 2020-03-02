@@ -20,6 +20,8 @@ final class ServicesAssembler {
         registerSingleton(singletonInstance: tm as ThemeManagerProtocol)
         registerSingleton(singletonInstance: tm as ThemebleRouting)
 
+        let imageFromCamera =  CamConnect()
+        registerSingleton(singletonInstance: imageFromCamera as CamConnectService)
     }
 
     // MARK: Registration

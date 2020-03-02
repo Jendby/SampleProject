@@ -9,5 +9,5 @@
 import UIKit
 
 protocol StartTableRouterInput {
-
+    func showCameraView(from vc: UIViewController)
 }

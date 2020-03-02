@@ -18,13 +18,17 @@ protocol SingleSectionInteractorInput: class {
 protocol SingleSectionInteractorOutput: class {
     func fetched(models: [CellAnyModel])
 }
+protocol SingleSectionPresenterDelegate: class {
+    func modelChanged(model: CellAnyModel, index: Int)
+}
 
 open class SingleSectionPresenter:
    CommonViewModel,
    SingleSectionInteractorOutput {
     // data source
     weak var source: SingleSectionInteractorInput?
-
+    weak var delegate: SingleSectionPresenterDelegate?
+    
     // MARK: SingleSectionInteractorOutput
 
     func fetched(models: [CellAnyModel]) {
@@ -46,6 +50,7 @@ open class SingleSectionPresenter:
     }
 
     func selected(indexPath: IndexPath) {
+        delegate?.modelChanged(model: models[indexPath.row], index: indexPath.row)
     }
 
     func model(for indexPath: IndexPath) -> Any {

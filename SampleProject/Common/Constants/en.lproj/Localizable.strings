@@ -22,3 +22,12 @@
 "This is a screen with entering a phone number" = "This is a screen with entering a phone number";
 "To get the code" = "To get the code";
 "Skip" = "Skip";
+
+//Services
+"Motion Tracking is not available on your device!" = "Motion Tracking is not available on your device!";
+"Failed to get the camera device" = "Failed to get the camera device";
+"Enable camera" = "Enable camera";
+"Disable camera" = "Disable camera";
+
+//StartTable
+"List" = "List";
