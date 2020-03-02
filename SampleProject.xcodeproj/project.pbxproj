@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0339AD87BF4DDF97C16793E8 /* SphereWorldInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89B9E9BA0D98563F72D9990 /* SphereWorldInteractorOutput.swift */; };
 		037DE0BC732581EB80F3B864 /* TabBarModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE407CA3CCED43C914ED7906 /* TabBarModuleOutput.swift */; };
 		0AB40255EB66FB990989F0C7 /* AboutTabInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D44D8497E2F94A085CA0AF /* AboutTabInteractorOutput.swift */; };
 		0EB7C16F95B25066DA20CB2C /* TabBarModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3520211B289F4E99439B9B7 /* TabBarModule.swift */; };
@@ -14,11 +15,16 @@
 		167F8ABCF1E75A4E55652DE6 /* TabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CDE101BAFB001C5FD1D44 /* TabBarInteractor.swift */; };
 		17B0958D5060CE179F5D0473 /* AboutTabModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A1A212543F71BCFA2EEB /* AboutTabModule.swift */; };
 		180070AC51640D52A4A09836 /* StartTableModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F36AB7400E02F31E2EB2808 /* StartTableModuleOutput.swift */; };
+		1B889D8B802473C09EFB12D5 /* SphereWorldInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1260E2DD8C38B913CD3ABBD0 /* SphereWorldInteractor.swift */; };
 		1BC131D41B02747850EA2BBF /* TabBarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976B551E14A5E5D22BCC9EA /* TabBarModuleInput.swift */; };
+		1F1D48696ECCDB2AD043D331 /* SphereWorldRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443CF64724A776BF3414154 /* SphereWorldRouterInput.swift */; };
+		2192ADCA7DCCAB4EB26711B9 /* SphereWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC338ECD292B61658C5BEBC9 /* SphereWorldViewController.swift */; };
 		32E28834556DFFFFF43A1E16 /* CameraViewModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F64441B8F7789176F52A69 /* CameraViewModuleInput.swift */; };
+		3675B182F8DDA2365FCC1478 /* SphereWorldModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45A8F055D4D2560022B1743 /* SphereWorldModuleOutput.swift */; };
 		37654083612956A4A50672C1 /* StartTableInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF3AEEE0B979B0D91AD1024 /* StartTableInteractorOutput.swift */; };
 		3D7F4BA68A966A6DADC4B6F6 /* AboutTabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB949D3897E8208F62D589DC /* AboutTabRouter.swift */; };
 		43D188BD35002498FA24E903 /* AboutTabRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E51637392CAACC48D174CC /* AboutTabRouterInput.swift */; };
+		443D10DFBC524485EAE53EF3 /* SphereWorldModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA517A783E1231D53D25C18 /* SphereWorldModule.swift */; };
 		4531F1B66039E2B7491ECEC8 /* StartTablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9158141FEE25801C55BEB7 /* StartTablePresenter.swift */; };
 		4533AF65C7BC5BC180B74247 /* WelcomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1694AE7D3551F6F6A89238D /* WelcomePresenter.swift */; };
 		4E35C0B579AC7E47262C6E92 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3BC70420418CEDA1E827B /* TabBarViewController.swift */; };
@@ -28,6 +34,7 @@
 		5B1B3655A3566766A0E06118 /* WelcomeModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CEFFF35BC63486F55990E /* WelcomeModuleInput.swift */; };
 		5FD21FA274A2A414D8737C13 /* WelcomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EE4555ABBA9E35C4C898D5 /* WelcomeInteractorInput.swift */; };
 		5FF8C993BCBD6B402F8FBDB5 /* CameraViewModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CD5AB658A2A2229B53CC95 /* CameraViewModuleOutput.swift */; };
+		618DF0F27DEAF7DC428AB42C /* SphereWorldPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408968FA1811E0AE12A7DC8C /* SphereWorldPresenterInput.swift */; };
 		634CEA2AC2926EDDE959E05B /* WelcomeViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCA6194C5472A22412D30AA /* WelcomeViewOutput.swift */; };
 		636B1584F9B20B2EC911D512 /* CameraViewInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8B34BE7BFAC012D1CDCCA7 /* CameraViewInteractorInput.swift */; };
 		63E4D65F2F671B339CD4D4B5 /* StartTableRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D26B93FF62393E3C51A963 /* StartTableRouterInput.swift */; };
@@ -43,6 +50,7 @@
 		81B14B605135A5A83880BF1F /* CameraViewViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD3092B431A8C38F3093602 /* CameraViewViewOutput.swift */; };
 		85A4B775A86671D62D1A7DE0 /* StartTableViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4017E89E2EF2F63C9C9BAB4A /* StartTableViewOutput.swift */; };
 		8BDE8E3CE36EC679513303E3 /* StartTableViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC709AA0361443C3A08ABCE8 /* StartTableViewInput.swift */; };
+		8BF282E49AC180388DD72EB7 /* SphereWorldInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7BC36E86A706FD16716B7 /* SphereWorldInteractorInput.swift */; };
 		8C45B96A240916910051E18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B969240916910051E18A /* AppDelegate.swift */; };
 		8C45B96C240916910051E18A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B96B240916910051E18A /* SceneDelegate.swift */; };
 		8C45B973240916930051E18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C45B972240916930051E18A /* Assets.xcassets */; };
@@ -87,6 +95,9 @@
 		8C45BC5D2409B8970051E18A /* TabUnloadedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC5C2409B8970051E18A /* TabUnloadedViewController.swift */; };
 		8C45BC63240CE74D0051E18A /* CamConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC62240CE74D0051E18A /* CamConnect.swift */; };
 		8C45BC65240CE75F0051E18A /* CamConnectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC64240CE75F0051E18A /* CamConnectService.swift */; };
+		8C45BC68240D0DDF0051E18A /* MotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC67240D0DDF0051E18A /* MotionTracker.swift */; };
+		8C45BC6A240D0DFC0051E18A /* MotionTrackerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC69240D0DFC0051E18A /* MotionTrackerService.swift */; };
+		8C45BC6C240D15AE0051E18A /* 360View.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C45BC6B240D15AE0051E18A /* 360View.xcassets */; };
 		8DB213D9FF298E1B06FC82D7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D885BAAC755250A969F5C /* WelcomeViewController.swift */; };
 		917CD3AEC3D35FDA85C5D89E /* StartTableRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC0B832697F8B1992653AA /* StartTableRouter.swift */; };
 		9198B65550650389D9718F21 /* CameraViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8555F6F59484F1AC0DC332C /* CameraViewRouter.swift */; };
@@ -95,13 +106,16 @@
 		9DAA859CCA3D7688B7222887 /* WelcomeRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FAA1FDC6E7A6015389F8B /* WelcomeRouterInput.swift */; };
 		A2DD706E220C31A7F4B94336 /* CameraViewInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA3CA96774442AAA02D4B6 /* CameraViewInteractorOutput.swift */; };
 		A2E455FE5432DA1EC4C3840B /* StartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67B1430CB8EC2F6CE3E49F7 /* StartTableViewController.swift */; };
+		A6190B911701D3346743CC14 /* SphereWorldRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB6CDDE7B3842468199A904 /* SphereWorldRouter.swift */; };
 		A736F87EB35A022F2A01F79A /* WelcomePresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154EBABC33C886E9B46AEA0 /* WelcomePresenterInput.swift */; };
 		AAF13008DDEC9B6888C77264 /* CameraViewViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B122A1DA48F948ADA09A0159 /* CameraViewViewInput.swift */; };
 		AF9D9C50C8ED22314D0D6803 /* Pods_SampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2320EEBF52F72AA93A7701CF /* Pods_SampleProject.framework */; };
+		B08707357A2F5A66221D525B /* SphereWorldPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F0F484F48ABEA83376B7B7 /* SphereWorldPresenter.swift */; };
 		B207EA4B295136D367CBE77C /* AboutTabViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B39FD0DB73C0FEDAB79DD /* AboutTabViewInput.swift */; };
 		B91B576138B04FFE99CA19CA /* CameraViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A276041A0136C491D5503C /* CameraViewViewController.swift */; };
 		C2883457BAA42794B69B0576 /* WelcomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAEEDD2BD1308D34CBA84B /* WelcomeModule.swift */; };
 		C2CC99964580106586309DAD /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22627AE46846FC368284868 /* TabBarRouter.swift */; };
+		D1A6A2A36F4435B17B5FD02B /* SphereWorldModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2147D02B9B440B3B642136FB /* SphereWorldModuleInput.swift */; };
 		D1E7ED1A3111F4F70A9E03E9 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258CC766F218EE5AE2EE793 /* WelcomeRouter.swift */; };
 		D6FFE684645967E69C4F85C2 /* CameraViewModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E44AD28C3EEB7D5A78B3FC2 /* CameraViewModule.swift */; };
 		D7E8897A04F348DD09C435E7 /* CameraViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D17BBC9BECDF4095B399C8 /* CameraViewPresenter.swift */; };
@@ -109,10 +123,12 @@
 		DB64CEE79891FC0B397228F1 /* WelcomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F4E218495C202213F6E9EB /* WelcomeInteractorOutput.swift */; };
 		DBB4EA54E3158C51AE41EC1B /* AboutTabPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243464CA9FF90B24E8B9225 /* AboutTabPresenterInput.swift */; };
 		E27D2F2530233145641C866F /* StartTableInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B835989A36285077C56FD4 /* StartTableInteractorInput.swift */; };
+		E8AFE1DFB872D4256F4930A3 /* SphereWorldViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230FB5DC777EE987A0EAE9A /* SphereWorldViewInput.swift */; };
 		F2A629E62B2E1CC6B9039EB4 /* AboutTabModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D790F73919043FAB08AE8A /* AboutTabModuleInput.swift */; };
 		F6192C0676909C2A79FF2024 /* AboutTabModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AAB5B8E280D1C3B72EE471 /* AboutTabModuleOutput.swift */; };
 		F6B702E508C5A87E77C52504 /* TabBarPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD9BB06924FCAC4231CBB9 /* TabBarPresenterInput.swift */; };
 		F90D0579E1FEF8B5DBF9B9FF /* TabBarInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E5E6F08671846F81C5688 /* TabBarInteractorInput.swift */; };
+		FBE9326F911457D1AD467A19 /* SphereWorldViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7A47FDCCAE35848B359A3 /* SphereWorldViewOutput.swift */; };
 		FBFC1DAEDB128370CE1BF838 /* StartTableModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6A28F3AD594C2E444CF310 /* StartTableModuleInput.swift */; };
 		FC60F703F640507B29CCB36A /* CameraViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8185444D79689D76F8957ADD /* CameraViewInteractor.swift */; };
 		FD20901787D46BABC2CBBD12 /* StartTableModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96BB928AEAFD54FA817D6DE /* StartTableModule.swift */; };
@@ -120,16 +136,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05F0F484F48ABEA83376B7B7 /* SphereWorldPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldPresenter.swift; sourceTree = "<group>"; };
 		0B4A4CA4C8E661C2889E1FD4 /* StartTablePresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTablePresenterInput.swift; sourceTree = "<group>"; };
+		1260E2DD8C38B913CD3ABBD0 /* SphereWorldInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldInteractor.swift; sourceTree = "<group>"; };
 		14D44D8497E2F94A085CA0AF /* AboutTabInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabInteractorOutput.swift; sourceTree = "<group>"; };
 		1CBAEEDD2BD1308D34CBA84B /* WelcomeModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeModule.swift; sourceTree = "<group>"; };
 		1E9158141FEE25801C55BEB7 /* StartTablePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTablePresenter.swift; sourceTree = "<group>"; };
 		1FCA6194C5472A22412D30AA /* WelcomeViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeViewOutput.swift; sourceTree = "<group>"; };
 		20B465B4E6029ECFBF287AC9 /* TabBarViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarViewOutput.swift; sourceTree = "<group>"; };
+		2147D02B9B440B3B642136FB /* SphereWorldModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldModuleInput.swift; sourceTree = "<group>"; };
 		2258CC766F218EE5AE2EE793 /* WelcomeRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		22C7BC36E86A706FD16716B7 /* SphereWorldInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldInteractorInput.swift; sourceTree = "<group>"; };
 		2320EEBF52F72AA93A7701CF /* Pods_SampleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2970BA9592215343AE780EDD /* CameraViewPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewPresenterInput.swift; sourceTree = "<group>"; };
 		2AEC0B832697F8B1992653AA /* StartTableRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableRouter.swift; sourceTree = "<group>"; };
+		2BB6CDDE7B3842468199A904 /* SphereWorldRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldRouter.swift; sourceTree = "<group>"; };
+		2CA517A783E1231D53D25C18 /* SphereWorldModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldModule.swift; sourceTree = "<group>"; };
 		30E51637392CAACC48D174CC /* AboutTabRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabRouterInput.swift; sourceTree = "<group>"; };
 		310758EDE095688D40E69721 /* AboutTabInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabInteractor.swift; sourceTree = "<group>"; };
 		33AAB5B8E280D1C3B72EE471 /* AboutTabModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabModuleOutput.swift; sourceTree = "<group>"; };
@@ -137,8 +159,11 @@
 		37A140601DCFE6A4E3F9C218 /* AboutTabPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabPresenter.swift; sourceTree = "<group>"; };
 		3C8B34BE7BFAC012D1CDCCA7 /* CameraViewInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewInteractorInput.swift; sourceTree = "<group>"; };
 		4017E89E2EF2F63C9C9BAB4A /* StartTableViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableViewOutput.swift; sourceTree = "<group>"; };
+		408968FA1811E0AE12A7DC8C /* SphereWorldPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldPresenterInput.swift; sourceTree = "<group>"; };
 		409B39FD0DB73C0FEDAB79DD /* AboutTabViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabViewInput.swift; sourceTree = "<group>"; };
+		4443CF64724A776BF3414154 /* SphereWorldRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldRouterInput.swift; sourceTree = "<group>"; };
 		44FE6E85D90F3594E244B7DA /* Pods-SampleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject.debug.xcconfig"; path = "Target Support Files/Pods-SampleProject/Pods-SampleProject.debug.xcconfig"; sourceTree = "<group>"; };
+		45B7A47FDCCAE35848B359A3 /* SphereWorldViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldViewOutput.swift; sourceTree = "<group>"; };
 		484E5E6F08671846F81C5688 /* TabBarInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarInteractorInput.swift; sourceTree = "<group>"; };
 		515621216C548530676F10FB /* AboutTabViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabViewOutput.swift; sourceTree = "<group>"; };
 		56A276041A0136C491D5503C /* CameraViewViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +226,9 @@
 		8C45BC5C2409B8970051E18A /* TabUnloadedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabUnloadedViewController.swift; sourceTree = "<group>"; };
 		8C45BC62240CE74D0051E18A /* CamConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamConnect.swift; sourceTree = "<group>"; };
 		8C45BC64240CE75F0051E18A /* CamConnectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamConnectService.swift; sourceTree = "<group>"; };
+		8C45BC67240D0DDF0051E18A /* MotionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTracker.swift; sourceTree = "<group>"; };
+		8C45BC69240D0DFC0051E18A /* MotionTrackerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTrackerService.swift; sourceTree = "<group>"; };
+		8C45BC6B240D15AE0051E18A /* 360View.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = 360View.xcassets; sourceTree = "<group>"; };
 		8C913604A905664A6F58F703 /* AboutTabInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabInteractorInput.swift; sourceTree = "<group>"; };
 		8F36AB7400E02F31E2EB2808 /* StartTableModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableModuleOutput.swift; sourceTree = "<group>"; };
 		8F985AB89ADFBE0988015B3B /* WelcomeModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeModuleOutput.swift; sourceTree = "<group>"; };
@@ -215,6 +243,7 @@
 		B1694AE7D3551F6F6A89238D /* WelcomePresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomePresenter.swift; sourceTree = "<group>"; };
 		B58AF8EBE810A32654F3FD39 /* TabBarViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarViewInput.swift; sourceTree = "<group>"; };
 		B8555F6F59484F1AC0DC332C /* CameraViewRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewRouter.swift; sourceTree = "<group>"; };
+		B89B9E9BA0D98563F72D9990 /* SphereWorldInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldInteractorOutput.swift; sourceTree = "<group>"; };
 		BD1E66A8F3D084D59F862ED0 /* Pods-SampleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleProject.release.xcconfig"; path = "Target Support Files/Pods-SampleProject/Pods-SampleProject.release.xcconfig"; sourceTree = "<group>"; };
 		BE407CA3CCED43C914ED7906 /* TabBarModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarModuleOutput.swift; sourceTree = "<group>"; };
 		BFFD9BB06924FCAC4231CBB9 /* TabBarPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarPresenterInput.swift; sourceTree = "<group>"; };
@@ -224,11 +253,14 @@
 		CED3BC70420418CEDA1E827B /* TabBarViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		D22627AE46846FC368284868 /* TabBarRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
 		D2C5A1A212543F71BCFA2EEB /* AboutTabModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabModule.swift; sourceTree = "<group>"; };
+		D45A8F055D4D2560022B1743 /* SphereWorldModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldModuleOutput.swift; sourceTree = "<group>"; };
 		D46CDE101BAFB001C5FD1D44 /* TabBarInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarInteractor.swift; sourceTree = "<group>"; };
 		D96BB928AEAFD54FA817D6DE /* StartTableModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableModule.swift; sourceTree = "<group>"; };
 		D976B551E14A5E5D22BCC9EA /* TabBarModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarModuleInput.swift; sourceTree = "<group>"; };
 		DD6A28F3AD594C2E444CF310 /* StartTableModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableModuleInput.swift; sourceTree = "<group>"; };
+		E230FB5DC777EE987A0EAE9A /* SphereWorldViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldViewInput.swift; sourceTree = "<group>"; };
 		E5B835989A36285077C56FD4 /* StartTableInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableInteractorInput.swift; sourceTree = "<group>"; };
+		EC338ECD292B61658C5BEBC9 /* SphereWorldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldViewController.swift; sourceTree = "<group>"; };
 		EC709AA0361443C3A08ABCE8 /* StartTableViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableViewInput.swift; sourceTree = "<group>"; };
 		EDF3AEEE0B979B0D91AD1024 /* StartTableInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableInteractorOutput.swift; sourceTree = "<group>"; };
 		F154EBABC33C886E9B46AEA0 /* WelcomePresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomePresenterInput.swift; sourceTree = "<group>"; };
@@ -287,6 +319,7 @@
 				B0654C0C1B95DCEFBA18AEEB /* AboutTab */,
 				E7505CAD5103EB862CD70EAA /* TabBar */,
 				D8030063DCDDA6792BC3ECF7 /* CameraView */,
+				9D2B733A7465E495E4B042D8 /* SphereWorld */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -297,8 +330,17 @@
 				F4D9CB3C903161DC0A384C60 /* CameraViewRouterInput.swift */,
 				B8555F6F59484F1AC0DC332C /* CameraViewRouter.swift */,
 			);
-			name = Router;
 			path = Router;
+			sourceTree = "<group>";
+		};
+		48BC7F526A57FC8C9760D874 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E230FB5DC777EE987A0EAE9A /* SphereWorldViewInput.swift */,
+				45B7A47FDCCAE35848B359A3 /* SphereWorldViewOutput.swift */,
+				EC338ECD292B61658C5BEBC9 /* SphereWorldViewController.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		4A3E0DBA3CF789F413C0F7AB /* View */ = {
@@ -308,7 +350,6 @@
 				9CD3092B431A8C38F3093602 /* CameraViewViewOutput.swift */,
 				56A276041A0136C491D5503C /* CameraViewViewController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -364,7 +405,6 @@
 				C1EA3CA96774442AAA02D4B6 /* CameraViewInteractorOutput.swift */,
 				8185444D79689D76F8957ADD /* CameraViewInteractor.swift */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -454,6 +494,7 @@
 			isa = PBXGroup;
 			children = (
 				8C45B972240916930051E18A /* Assets.xcassets */,
+				8C45BC6B240D15AE0051E18A /* 360View.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -461,6 +502,7 @@
 		8C45B980240925300051E18A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8C45BC66240D0DCC0051E18A /* MotionTracker */,
 				8C45BC61240CE71A0051E18A /* CameraConnect */,
 				8C45B987240925C10051E18A /* Assembler */,
 			);
@@ -625,6 +667,15 @@
 			path = CameraConnect;
 			sourceTree = "<group>";
 		};
+		8C45BC66240D0DCC0051E18A /* MotionTracker */ = {
+			isa = PBXGroup;
+			children = (
+				8C45BC67240D0DDF0051E18A /* MotionTracker.swift */,
+				8C45BC69240D0DFC0051E18A /* MotionTrackerService.swift */,
+			);
+			path = MotionTracker;
+			sourceTree = "<group>";
+		};
 		8D448EE5DF4AAB5B444108D6 /* Welcome */ = {
 			isa = PBXGroup;
 			children = (
@@ -647,13 +698,33 @@
 			path = Module;
 			sourceTree = "<group>";
 		};
+		9D2B733A7465E495E4B042D8 /* SphereWorld */ = {
+			isa = PBXGroup;
+			children = (
+				48BC7F526A57FC8C9760D874 /* View */,
+				9E013B01F5525068836E9EA9 /* Presenter */,
+				E9C44B1E2B3B57DF7FA71011 /* Interactor */,
+				E4A4B4A27ACA54C5400AD465 /* Router */,
+				CF8E0863CCEAA8B06A021A91 /* Module */,
+			);
+			path = SphereWorld;
+			sourceTree = "<group>";
+		};
+		9E013B01F5525068836E9EA9 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				408968FA1811E0AE12A7DC8C /* SphereWorldPresenterInput.swift */,
+				05F0F484F48ABEA83376B7B7 /* SphereWorldPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		A012EE04196EB93011EB4457 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
 				2970BA9592215343AE780EDD /* CameraViewPresenterInput.swift */,
 				A0D17BBC9BECDF4095B399C8 /* CameraViewPresenter.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -729,6 +800,16 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		CF8E0863CCEAA8B06A021A91 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				2147D02B9B440B3B642136FB /* SphereWorldModuleInput.swift */,
+				D45A8F055D4D2560022B1743 /* SphereWorldModuleOutput.swift */,
+				2CA517A783E1231D53D25C18 /* SphereWorldModule.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
 		D8030063DCDDA6792BC3ECF7 /* CameraView */ = {
 			isa = PBXGroup;
 			children = (
@@ -738,7 +819,6 @@
 				458A87D0046FB4CFCBDA5B64 /* Router */,
 				F8003979DCC0CC8DF7C2A98A /* Module */,
 			);
-			name = CameraView;
 			path = CameraView;
 			sourceTree = "<group>";
 		};
@@ -753,6 +833,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		E4A4B4A27ACA54C5400AD465 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4443CF64724A776BF3414154 /* SphereWorldRouterInput.swift */,
+				2BB6CDDE7B3842468199A904 /* SphereWorldRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		E7505CAD5103EB862CD70EAA /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -763,6 +852,16 @@
 				0B38F2CCB3DD1E7A510285FB /* Module */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E9C44B1E2B3B57DF7FA71011 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				22C7BC36E86A706FD16716B7 /* SphereWorldInteractorInput.swift */,
+				B89B9E9BA0D98563F72D9990 /* SphereWorldInteractorOutput.swift */,
+				1260E2DD8C38B913CD3ABBD0 /* SphereWorldInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		F09BFF6F89E5AC1F26BA765D /* View */ = {
@@ -792,7 +891,6 @@
 				A4CD5AB658A2A2229B53CC95 /* CameraViewModuleOutput.swift */,
 				5E44AD28C3EEB7D5A78B3FC2 /* CameraViewModule.swift */,
 			);
-			name = Module;
 			path = Module;
 			sourceTree = "<group>";
 		};
@@ -878,6 +976,7 @@
 			files = (
 				8C45B976240916930051E18A /* LaunchScreen.storyboard in Resources */,
 				8C45B9D424092C850051E18A /* Welcome.storyboard in Resources */,
+				8C45BC6C240D15AE0051E18A /* 360View.xcassets in Resources */,
 				8C45BA00240996E80051E18A /* StartTableCell.xib in Resources */,
 				8C45B993240926800051E18A /* Localizable.strings in Resources */,
 				8C45B973240916930051E18A /* Assets.xcassets in Resources */,
@@ -1024,6 +1123,7 @@
 				1BC131D41B02747850EA2BBF /* TabBarModuleInput.swift in Sources */,
 				037DE0BC732581EB80F3B864 /* TabBarModuleOutput.swift in Sources */,
 				0EB7C16F95B25066DA20CB2C /* TabBarModule.swift in Sources */,
+				8C45BC6A240D0DFC0051E18A /* MotionTrackerService.swift in Sources */,
 				AAF13008DDEC9B6888C77264 /* CameraViewViewInput.swift in Sources */,
 				81B14B605135A5A83880BF1F /* CameraViewViewOutput.swift in Sources */,
 				B91B576138B04FFE99CA19CA /* CameraViewViewController.swift in Sources */,
@@ -1037,6 +1137,20 @@
 				32E28834556DFFFFF43A1E16 /* CameraViewModuleInput.swift in Sources */,
 				5FF8C993BCBD6B402F8FBDB5 /* CameraViewModuleOutput.swift in Sources */,
 				D6FFE684645967E69C4F85C2 /* CameraViewModule.swift in Sources */,
+				E8AFE1DFB872D4256F4930A3 /* SphereWorldViewInput.swift in Sources */,
+				FBE9326F911457D1AD467A19 /* SphereWorldViewOutput.swift in Sources */,
+				2192ADCA7DCCAB4EB26711B9 /* SphereWorldViewController.swift in Sources */,
+				618DF0F27DEAF7DC428AB42C /* SphereWorldPresenterInput.swift in Sources */,
+				8C45BC68240D0DDF0051E18A /* MotionTracker.swift in Sources */,
+				B08707357A2F5A66221D525B /* SphereWorldPresenter.swift in Sources */,
+				8BF282E49AC180388DD72EB7 /* SphereWorldInteractorInput.swift in Sources */,
+				0339AD87BF4DDF97C16793E8 /* SphereWorldInteractorOutput.swift in Sources */,
+				1B889D8B802473C09EFB12D5 /* SphereWorldInteractor.swift in Sources */,
+				1F1D48696ECCDB2AD043D331 /* SphereWorldRouterInput.swift in Sources */,
+				A6190B911701D3346743CC14 /* SphereWorldRouter.swift in Sources */,
+				D1A6A2A36F4435B17B5FD02B /* SphereWorldModuleInput.swift in Sources */,
+				3675B182F8DDA2365FCC1478 /* SphereWorldModuleOutput.swift in Sources */,
+				443D10DFBC524485EAE53EF3 /* SphereWorldModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

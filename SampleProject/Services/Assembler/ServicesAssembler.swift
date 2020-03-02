@@ -22,6 +22,9 @@ final class ServicesAssembler {
 
         let imageFromCamera =  CamConnect()
         registerSingleton(singletonInstance: imageFromCamera as CamConnectService)
+        
+        let motionTracker = MotionTracker()
+        registerSingleton(singletonInstance: motionTracker as MotionTrackerService)
     }
 
     // MARK: Registration

@@ -52,6 +52,9 @@ extension StartTablePresenter: SingleSectionPresenterDelegate {
             if m.type == .cameraView {
                 router.showCameraView(from: self.view.viewController)
             }
+            if m.type == .view360 {
+                router.showSphereView(from: self.view.viewController)
+            }
         }
     }
 }

@@ -19,10 +19,15 @@ extension StartTableInteractor: StartTableInteractorInput  {
         output?.fetched(models: [StartTableModel(id: "camera",
                                                  about: "Camera View",
                                                  theme: theme,
-                                                 type: .cameraView)])
+                                                 type: .cameraView),
+                                 StartTableModel(id: "Sphere",
+                                                 about: "Sphere View",
+                                                 theme: theme,
+                                                 type: .view360)])
     }
 }
 
 enum StartTableCellType {
     case cameraView
+    case view360
 }

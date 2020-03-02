@@ -10,4 +10,5 @@ import UIKit
 
 protocol StartTableRouterInput {
     func showCameraView(from vc: UIViewController)
+    func showSphereView(from vc: UIViewController)
 }
