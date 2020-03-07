@@ -502,6 +502,7 @@
 		8C45B980240925300051E18A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8C84614024142300008EE5E5 /* Network */,
 				8C45BC66240D0DCC0051E18A /* MotionTracker */,
 				8C45BC61240CE71A0051E18A /* CameraConnect */,
 				8C45B987240925C10051E18A /* Assembler */,
@@ -674,6 +675,13 @@
 				8C45BC69240D0DFC0051E18A /* MotionTrackerService.swift */,
 			);
 			path = MotionTracker;
+			sourceTree = "<group>";
+		};
+		8C84614024142300008EE5E5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		8D448EE5DF4AAB5B444108D6 /* Welcome */ = {
