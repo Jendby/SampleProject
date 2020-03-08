@@ -9,6 +9,6 @@
 import UIKit
 
 protocol TabBarRouterInput {
-    func createAbout(_ vc:UIViewController)
+    func createAR(_ vc:UIViewController)
     func createTable(_ vc:UIViewController)
 }

@@ -50,6 +50,7 @@ extension StartTablePresenter: StartTableInteractorOutput {
     }
 }
 
+// MARK: - SingleSectionPresenterDelegate
 extension StartTablePresenter: SingleSectionPresenterDelegate {
     func modelChanged(model: CellAnyModel, index: Int) {
         

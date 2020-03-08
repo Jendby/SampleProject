@@ -42,8 +42,8 @@ extension TabBarPresenter: TabBarViewOutput {
         if type == .json {
             router.createTable(vc)
         }
-        if type == .about {
-            router.createAbout(vc)
+        if type == .ARTable {
+            router.createAR(vc)
         }
 //routers
     }

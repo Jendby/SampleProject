@@ -29,9 +29,9 @@ final class TabUnloadedViewController: UIViewController {
         case .json:
             tabBarItem.image = UIImage(systemName: "list.bullet")
             tabBarItem.title = "JSON"
-        case .about:
-            tabBarItem.image = UIImage(systemName: "paperplane.fill")
-            tabBarItem.title = "about"
+        case .ARTable:
+            tabBarItem.image = UIImage(systemName: "arkit")
+            tabBarItem.title = "AR"
         }
     }
 
