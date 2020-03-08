@@ -98,6 +98,19 @@
 		8C45BC68240D0DDF0051E18A /* MotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC67240D0DDF0051E18A /* MotionTracker.swift */; };
 		8C45BC6A240D0DFC0051E18A /* MotionTrackerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC69240D0DFC0051E18A /* MotionTrackerService.swift */; };
 		8C45BC6C240D15AE0051E18A /* 360View.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C45BC6B240D15AE0051E18A /* 360View.xcassets */; };
+		8C84614224142474008EE5E5 /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84614124142474008EE5E5 /* NetManager.swift */; };
+		8C846145241424A5008EE5E5 /* MobileNetTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846143241424A5008EE5E5 /* MobileNetTransport.swift */; };
+		8C846146241424A5008EE5E5 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846144241424A5008EE5E5 /* NetworkConfig.swift */; };
+		8C846149241424D1008EE5E5 /* NetManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846148241424D1008EE5E5 /* NetManagerService.swift */; };
+		8C84614B241424DD008EE5E5 /* MobileNetTransportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84614A241424DD008EE5E5 /* MobileNetTransportService.swift */; };
+		8C84614D24142592008EE5E5 /* NetFun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84614C24142592008EE5E5 /* NetFun.swift */; };
+		8C8461512414404A008EE5E5 /* NetTransportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8461502414404A008EE5E5 /* NetTransportService.swift */; };
+		8C846155241440C5008EE5E5 /* AuthHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846154241440C5008EE5E5 /* AuthHandler.swift */; };
+		8C846157241440D7008EE5E5 /* NetAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846156241440D7008EE5E5 /* NetAuthService.swift */; };
+		8C84615924144216008EE5E5 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84615824144216008EE5E5 /* common.swift */; };
+		8C84615D24144278008EE5E5 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84615B24144278008EE5E5 /* Secret.swift */; };
+		8C84615E24144278008EE5E5 /* SecretServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84615C24144278008EE5E5 /* SecretServiceProtocol.swift */; };
+		8C84616024144352008EE5E5 /* String+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84615F24144352008EE5E5 /* String+Convert.swift */; };
 		8DB213D9FF298E1B06FC82D7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D885BAAC755250A969F5C /* WelcomeViewController.swift */; };
 		917CD3AEC3D35FDA85C5D89E /* StartTableRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC0B832697F8B1992653AA /* StartTableRouter.swift */; };
 		9198B65550650389D9718F21 /* CameraViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8555F6F59484F1AC0DC332C /* CameraViewRouter.swift */; };
@@ -229,6 +242,19 @@
 		8C45BC67240D0DDF0051E18A /* MotionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTracker.swift; sourceTree = "<group>"; };
 		8C45BC69240D0DFC0051E18A /* MotionTrackerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTrackerService.swift; sourceTree = "<group>"; };
 		8C45BC6B240D15AE0051E18A /* 360View.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = 360View.xcassets; sourceTree = "<group>"; };
+		8C84614124142474008EE5E5 /* NetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
+		8C846143241424A5008EE5E5 /* MobileNetTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNetTransport.swift; sourceTree = "<group>"; };
+		8C846144241424A5008EE5E5 /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		8C846148241424D1008EE5E5 /* NetManagerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetManagerService.swift; sourceTree = "<group>"; };
+		8C84614A241424DD008EE5E5 /* MobileNetTransportService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNetTransportService.swift; sourceTree = "<group>"; };
+		8C84614C24142592008EE5E5 /* NetFun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetFun.swift; sourceTree = "<group>"; };
+		8C8461502414404A008EE5E5 /* NetTransportService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetTransportService.swift; sourceTree = "<group>"; };
+		8C846154241440C5008EE5E5 /* AuthHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthHandler.swift; sourceTree = "<group>"; };
+		8C846156241440D7008EE5E5 /* NetAuthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetAuthService.swift; sourceTree = "<group>"; };
+		8C84615824144216008EE5E5 /* common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		8C84615B24144278008EE5E5 /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		8C84615C24144278008EE5E5 /* SecretServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretServiceProtocol.swift; sourceTree = "<group>"; };
+		8C84615F24144352008EE5E5 /* String+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Convert.swift"; sourceTree = "<group>"; };
 		8C913604A905664A6F58F703 /* AboutTabInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabInteractorInput.swift; sourceTree = "<group>"; };
 		8F36AB7400E02F31E2EB2808 /* StartTableModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableModuleOutput.swift; sourceTree = "<group>"; };
 		8F985AB89ADFBE0988015B3B /* WelcomeModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeModuleOutput.swift; sourceTree = "<group>"; };
@@ -502,6 +528,7 @@
 		8C45B980240925300051E18A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				8C84615A24144268008EE5E5 /* Secret */,
 				8C84614024142300008EE5E5 /* Network */,
 				8C45BC66240D0DCC0051E18A /* MotionTracker */,
 				8C45BC61240CE71A0051E18A /* CameraConnect */,
@@ -563,6 +590,7 @@
 			isa = PBXGroup;
 			children = (
 				8C45B9952409268D0051E18A /* UITableView+Model.swift */,
+				8C84615F24144352008EE5E5 /* String+Convert.swift */,
 				8C45B9962409268D0051E18A /* UIFont+SF.swift */,
 				8C45B9972409268D0051E18A /* String+Localization.swift */,
 				8C45B9982409268D0051E18A /* UINavigationController + Common.swift */,
@@ -680,8 +708,43 @@
 		8C84614024142300008EE5E5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				8C84615324144078008EE5E5 /* parsing */,
+				8C846147241424B7008EE5E5 /* protocols */,
+				8C846143241424A5008EE5E5 /* MobileNetTransport.swift */,
+				8C846144241424A5008EE5E5 /* NetworkConfig.swift */,
+				8C84614124142474008EE5E5 /* NetManager.swift */,
+				8C846154241440C5008EE5E5 /* AuthHandler.swift */,
+				8C84614C24142592008EE5E5 /* NetFun.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		8C846147241424B7008EE5E5 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8C846156241440D7008EE5E5 /* NetAuthService.swift */,
+				8C8461502414404A008EE5E5 /* NetTransportService.swift */,
+				8C84614A241424DD008EE5E5 /* MobileNetTransportService.swift */,
+				8C846148241424D1008EE5E5 /* NetManagerService.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		8C84615324144078008EE5E5 /* parsing */ = {
+			isa = PBXGroup;
+			children = (
+				8C84615824144216008EE5E5 /* common.swift */,
+			);
+			path = parsing;
+			sourceTree = "<group>";
+		};
+		8C84615A24144268008EE5E5 /* Secret */ = {
+			isa = PBXGroup;
+			children = (
+				8C84615B24144278008EE5E5 /* Secret.swift */,
+				8C84615C24144278008EE5E5 /* SecretServiceProtocol.swift */,
+			);
+			path = Secret;
 			sourceTree = "<group>";
 		};
 		8D448EE5DF4AAB5B444108D6 /* Welcome */ = {
@@ -1053,6 +1116,7 @@
 				8C45B9A9240926A10051E18A /* ViewControllerable.swift in Sources */,
 				8C45B9BE240926BB0051E18A /* BaseTableViewController.swift in Sources */,
 				8C45B9AE240926A10051E18A /* IMovePath.swift in Sources */,
+				8C84614224142474008EE5E5 /* NetManager.swift in Sources */,
 				8C45B9AD240926A10051E18A /* IIndexPathCount.swift in Sources */,
 				8C45BC63240CE74D0051E18A /* CamConnect.swift in Sources */,
 				8C45B9862409258B0051E18A /* ThemeManager.swift in Sources */,
@@ -1061,6 +1125,7 @@
 				8DB213D9FF298E1B06FC82D7 /* WelcomeViewController.swift in Sources */,
 				A736F87EB35A022F2A01F79A /* WelcomePresenterInput.swift in Sources */,
 				8C45B9B1240926AE0051E18A /* SetupableViewCaller.swift in Sources */,
+				8C84616024144352008EE5E5 /* String+Convert.swift in Sources */,
 				8C45B9FA240947DA0051E18A /* DissolveTransition.swift in Sources */,
 				4533AF65C7BC5BC180B74247 /* WelcomePresenter.swift in Sources */,
 				5FD21FA274A2A414D8737C13 /* WelcomeInteractorInput.swift in Sources */,
@@ -1071,6 +1136,7 @@
 				8C45B9CE240926C20051E18A /* MultipleSectionPresenter.swift in Sources */,
 				DB64CEE79891FC0B397228F1 /* WelcomeInteractorOutput.swift in Sources */,
 				8C45B9CF240926C20051E18A /* SingleSectionPresenter.swift in Sources */,
+				8C84614D24142592008EE5E5 /* NetFun.swift in Sources */,
 				8C45B98C240926660051E18A /* ErrableOutput.swift in Sources */,
 				8C45B9CC240926C20051E18A /* EmptyTableModel.swift in Sources */,
 				8C45B99C2409268D0051E18A /* String+Localization.swift in Sources */,
@@ -1089,6 +1155,7 @@
 				C2883457BAA42794B69B0576 /* WelcomeModule.swift in Sources */,
 				8C45B9852409258B0051E18A /* Theme.swift in Sources */,
 				8C45B9AC240926A10051E18A /* AlertProtocol.swift in Sources */,
+				8C846146241424A5008EE5E5 /* NetworkConfig.swift in Sources */,
 				8C45B9AA240926A10051E18A /* ViewModelProtocols.swift in Sources */,
 				8BDE8E3CE36EC679513303E3 /* StartTableViewInput.swift in Sources */,
 				85A4B775A86671D62D1A7DE0 /* StartTableViewOutput.swift in Sources */,
@@ -1097,6 +1164,8 @@
 				6AD95860F875EF29B3E3D35B /* StartTablePresenterInput.swift in Sources */,
 				4531F1B66039E2B7491ECEC8 /* StartTablePresenter.swift in Sources */,
 				E27D2F2530233145641C866F /* StartTableInteractorInput.swift in Sources */,
+				8C846155241440C5008EE5E5 /* AuthHandler.swift in Sources */,
+				8C84615D24144278008EE5E5 /* Secret.swift in Sources */,
 				37654083612956A4A50672C1 /* StartTableInteractorOutput.swift in Sources */,
 				6E46D68444A90CC0E8C24E11 /* StartTableInteractor.swift in Sources */,
 				63E4D65F2F671B339CD4D4B5 /* StartTableRouterInput.swift in Sources */,
@@ -1108,6 +1177,7 @@
 				75346CB2A3CF3ABA844E3227 /* AboutTabViewOutput.swift in Sources */,
 				7C9A073587502BD1093CDBA6 /* AboutTabViewController.swift in Sources */,
 				DBB4EA54E3158C51AE41EC1B /* AboutTabPresenterInput.swift in Sources */,
+				8C846145241424A5008EE5E5 /* MobileNetTransport.swift in Sources */,
 				0F98A926C51A143EB0CBA79B /* AboutTabPresenter.swift in Sources */,
 				DAF8A9490CD8DC116AC2307C /* AboutTabInteractorInput.swift in Sources */,
 				8C45BC65240CE75F0051E18A /* CamConnectService.swift in Sources */,
@@ -1115,6 +1185,7 @@
 				6F60E9A91624253C53D751A8 /* AboutTabInteractor.swift in Sources */,
 				43D188BD35002498FA24E903 /* AboutTabRouterInput.swift in Sources */,
 				3D7F4BA68A966A6DADC4B6F6 /* AboutTabRouter.swift in Sources */,
+				8C84615924144216008EE5E5 /* common.swift in Sources */,
 				F2A629E62B2E1CC6B9039EB4 /* AboutTabModuleInput.swift in Sources */,
 				F6192C0676909C2A79FF2024 /* AboutTabModuleOutput.swift in Sources */,
 				17B0958D5060CE179F5D0473 /* AboutTabModule.swift in Sources */,
@@ -1136,6 +1207,7 @@
 				81B14B605135A5A83880BF1F /* CameraViewViewOutput.swift in Sources */,
 				B91B576138B04FFE99CA19CA /* CameraViewViewController.swift in Sources */,
 				6D6707CEF6882F83F30E94C2 /* CameraViewPresenterInput.swift in Sources */,
+				8C846157241440D7008EE5E5 /* NetAuthService.swift in Sources */,
 				D7E8897A04F348DD09C435E7 /* CameraViewPresenter.swift in Sources */,
 				636B1584F9B20B2EC911D512 /* CameraViewInteractorInput.swift in Sources */,
 				A2DD706E220C31A7F4B94336 /* CameraViewInteractorOutput.swift in Sources */,
@@ -1149,6 +1221,7 @@
 				FBE9326F911457D1AD467A19 /* SphereWorldViewOutput.swift in Sources */,
 				2192ADCA7DCCAB4EB26711B9 /* SphereWorldViewController.swift in Sources */,
 				618DF0F27DEAF7DC428AB42C /* SphereWorldPresenterInput.swift in Sources */,
+				8C84615E24144278008EE5E5 /* SecretServiceProtocol.swift in Sources */,
 				8C45BC68240D0DDF0051E18A /* MotionTracker.swift in Sources */,
 				B08707357A2F5A66221D525B /* SphereWorldPresenter.swift in Sources */,
 				8BF282E49AC180388DD72EB7 /* SphereWorldInteractorInput.swift in Sources */,
@@ -1156,9 +1229,12 @@
 				1B889D8B802473C09EFB12D5 /* SphereWorldInteractor.swift in Sources */,
 				1F1D48696ECCDB2AD043D331 /* SphereWorldRouterInput.swift in Sources */,
 				A6190B911701D3346743CC14 /* SphereWorldRouter.swift in Sources */,
+				8C84614B241424DD008EE5E5 /* MobileNetTransportService.swift in Sources */,
 				D1A6A2A36F4435B17B5FD02B /* SphereWorldModuleInput.swift in Sources */,
+				8C846149241424D1008EE5E5 /* NetManagerService.swift in Sources */,
 				3675B182F8DDA2365FCC1478 /* SphereWorldModuleOutput.swift in Sources */,
 				443D10DFBC524485EAE53EF3 /* SphereWorldModule.swift in Sources */,
+				8C8461512414404A008EE5E5 /* NetTransportService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

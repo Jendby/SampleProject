@@ -87,6 +87,19 @@ func defaultDescriptionFrom(dict: NSDictionary) -> String {
     return ""
 }
 
+func applicationVersion() -> String {
+    if let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String {
+        var v = " \(version)"
+        if let bv = Bundle.main.infoDictionary?["CFBundleVersion"] as? String {
+            v += ".\(bv)"
+        }
+        return v
+    }
+    else {
+        return ""
+    }
+}
+
 func randomColor() -> UIColor {
     return UIColor(red: rand(), green: rand(), blue: rand(), alpha: 1.0)
 }
