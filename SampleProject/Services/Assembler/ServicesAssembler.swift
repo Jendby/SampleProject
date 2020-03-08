@@ -15,10 +15,23 @@ protocol ServiceLocatorModulProtocol {
 
 final class ServicesAssembler {
     init() {
+        let secrets = Secret()
+        registerSingleton(singletonInstance: secrets as SecretServiceProtocol)
 
         let tm = ThemeManager()
         registerSingleton(singletonInstance: tm as ThemeManagerProtocol)
         registerSingleton(singletonInstance: tm as ThemebleRouting)
+        
+        let cfgName: String
+        cfgName = "network"
+        let cfg = NetworkConfig.getConfiguration(name: cfgName)
+        let transport = MobileNetTransport(config: cfg, secret: secrets)
+        let manager = NetManager(cfg: cfg,
+                                 secret: secrets,
+                                 transport: transport)
+        let net = NetFun(netmanager: manager)
+        registerSingleton(singletonInstance: net as NetAuthService)
+        registerSingleton(singletonInstance: net as NetPlaceholderJSON)
 
         let imageFromCamera =  CamConnect()
         registerSingleton(singletonInstance: imageFromCamera as CamConnectService)

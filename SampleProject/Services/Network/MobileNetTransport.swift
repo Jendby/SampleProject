@@ -50,23 +50,24 @@ final class MobileNetTransport {
                                 params: Parameters?,
                                 success: ((T) -> Void)?,
                                 failure: ((NSError) -> Void)?) {
-            sessionManager.request(url,
-                                   method: .get,
-                                   parameters: params,
-                                   encoding: URLEncoding.queryString,
-                                   headers: nil)
-                .responseJSON { (response) in
-                    switch response.result {
-                    case .success(let value):
-                        if let response = value as? NSDictionary{
-                            if let s = success as? ((NSDictionary) -> Void)? {
-                                s?(response)
-                            }
-                        }
-                    case .failure(let error):
-                        failure?(error as NSError)
+        sessionManager.request(url,
+                               method: .get,
+                               parameters: params,
+                               encoding: URLEncoding.queryString,
+                               headers: nil)
+            .responseJSON { (response) in
+                self.commonParsingResponse(response, success: { json in
+                    if let s = success as? ((Array<Any>) -> Void)? {
+                        s?(json)
+                    } else if let s = success as? ((NSDictionary) -> Void)? {
+                        
+                        s?(json[0])
+                    } else if let s = success as? (([NSDictionary]) -> Void)? {
+                        
+                        s?(json)
                     }
-                }
+                }, failure: failure)
+        }
     }
     
     private func commonHeaders() -> [String: String] {

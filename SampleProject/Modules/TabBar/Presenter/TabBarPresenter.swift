@@ -39,7 +39,7 @@ extension TabBarPresenter: TabBarViewOutput {
     }
 
     func loadViewOf(type: TabType, vc: UIViewController) {
-        if type == .table {
+        if type == .json {
             router.createTable(vc)
         }
         if type == .about {

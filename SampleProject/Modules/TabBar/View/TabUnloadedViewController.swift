@@ -26,9 +26,9 @@ final class TabUnloadedViewController: UIViewController {
         super.init(nibName: nil, bundle: nil)
 
         switch type {
-        case .table:
-            tabBarItem.image = UIImage(systemName: "paperplane.fill")
-            tabBarItem.title = "table"
+        case .json:
+            tabBarItem.image = UIImage(systemName: "list.bullet")
+            tabBarItem.title = "JSON"
         case .about:
             tabBarItem.image = UIImage(systemName: "paperplane.fill")
             tabBarItem.title = "about"

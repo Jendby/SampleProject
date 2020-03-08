@@ -9,7 +9,7 @@
 import UIKit
 
 enum TabType {
-    case table
+    case json
     case about
 }
 
@@ -37,7 +37,7 @@ extension TabBarViewController: Themeble {
 // MARK: - TabBarerViewInput
 extension TabBarViewController: TabBarViewInput {
     func setupInitialState(selected: Int) {
-        let vcsTypes: [TabType] = [.table, .about]
+        let vcsTypes: [TabType] = [.json, .about]
         var vcs = [UIViewController]()
         for t in vcsTypes {
             let vc = TabUnloadedViewController(type: t)

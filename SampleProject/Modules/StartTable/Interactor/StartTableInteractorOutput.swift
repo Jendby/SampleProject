@@ -9,5 +9,5 @@
 import UIKit
 
 protocol StartTableInteractorOutput: SingleSectionInteractorOutput {
-
+    func handle(err: NSError)
 }

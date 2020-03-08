@@ -14,7 +14,7 @@ final class StartTableViewController: BaseTableViewController {
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "List".localized
+        self.title = "JSON"
         output.viewIsReady()
     }
 }

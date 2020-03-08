@@ -10,24 +10,30 @@ import UIKit
 
 final class StartTableInteractor {
     weak var output: StartTableInteractorOutput?
+    private let netPlaceholder: NetPlaceholderJSON
+    
+    init(netPlaceholder: NetPlaceholderJSON){
+        self.netPlaceholder = netPlaceholder
+    }
 }
 
 // MARK: - StartTableInteractorInput
 extension StartTableInteractor: StartTableInteractorInput  {
     func loadModels(with theme: Theme) {
-        
-        output?.fetched(models: [StartTableModel(id: "camera",
-                                                 about: "Camera View",
-                                                 theme: theme,
-                                                 type: .cameraView),
-                                 StartTableModel(id: "Sphere",
-                                                 about: "Sphere View",
-                                                 theme: theme,
-                                                 type: .view360)])
+        netPlaceholder.searchPosts(
+            success: { [weak self] (ans: [PostFromJsonPlaceholder]) in
+                guard let `self` = self else { return }
+                var mm = [StartTableModel]()
+                for item in ans {
+                    mm.append(StartTableModel(id: "\(item.id)",
+                        about: item.title,
+                        theme: theme))
+                }
+                self.output?.fetched(models: mm)
+            }, failure: { [weak self] e in
+                self?.output?.handle(err: e)
+                print("ee")
+        })
     }
 }
 
-enum StartTableCellType {
-    case cameraView
-    case view360
-}

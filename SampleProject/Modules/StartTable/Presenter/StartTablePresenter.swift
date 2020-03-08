@@ -44,17 +44,14 @@ extension StartTablePresenter: StartTableViewOutput {
 
 // MARK: - StartTableInteractorOutput
 extension StartTablePresenter: StartTableInteractorOutput {
+    func handle(err: NSError) {
+        view.hideBusyIndicator()
+        view.handle(error: err)
+    }
 }
 
 extension StartTablePresenter: SingleSectionPresenterDelegate {
     func modelChanged(model: CellAnyModel, index: Int) {
-        if let m = model as? StartTableModel {
-            if m.type == .cameraView {
-                router.showCameraView(from: self.view.viewController)
-            }
-            if m.type == .view360 {
-                router.showSphereView(from: self.view.viewController)
-            }
-        }
+        
     }
 }

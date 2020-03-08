@@ -21,8 +21,8 @@
                         <constraint firstAttribute="width" constant="50" id="ywt-GW-wwo"/>
                     </constraints>
                 </view>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wtz-zX-yws">
-                    <rect key="frame" x="90" y="34.5" width="42" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wtz-zX-yws">
+                    <rect key="frame" x="90" y="35" width="304" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -32,6 +32,8 @@
             <constraints>
                 <constraint firstItem="Wtz-zX-yws" firstAttribute="centerY" secondItem="dAF-k6-I3D" secondAttribute="centerY" id="04r-WY-RSz"/>
                 <constraint firstItem="Wtz-zX-yws" firstAttribute="leading" secondItem="dAF-k6-I3D" secondAttribute="trailing" constant="20" id="JNp-IN-t26"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Wtz-zX-yws" secondAttribute="trailing" constant="20" id="Nba-i1-Iji"/>
+                <constraint firstItem="Wtz-zX-yws" firstAttribute="height" secondItem="dAF-k6-I3D" secondAttribute="height" multiplier="0.41" id="R7W-Fx-Dcb"/>
                 <constraint firstItem="dAF-k6-I3D" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="cdB-O4-wwc"/>
                 <constraint firstItem="dAF-k6-I3D" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="iMg-fa-nuu"/>
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="dAF-k6-I3D" secondAttribute="bottom" constant="20" id="oPo-iE-xXX"/>

@@ -51,6 +51,11 @@
 		85A4B775A86671D62D1A7DE0 /* StartTableViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4017E89E2EF2F63C9C9BAB4A /* StartTableViewOutput.swift */; };
 		8BDE8E3CE36EC679513303E3 /* StartTableViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC709AA0361443C3A08ABCE8 /* StartTableViewInput.swift */; };
 		8BF282E49AC180388DD72EB7 /* SphereWorldInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C7BC36E86A706FD16716B7 /* SphereWorldInteractorInput.swift */; };
+		8C28982D24157DA3005C7531 /* NetFun+Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28982B24157DA3005C7531 /* NetFun+Auth.swift */; };
+		8C28982E24157DA3005C7531 /* NetFun + NetPlaceholderJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28982C24157DA3005C7531 /* NetFun + NetPlaceholderJSON.swift */; };
+		8C28983024157DC5005C7531 /* NetPlaceholderJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28982F24157DC5005C7531 /* NetPlaceholderJSON.swift */; };
+		8C28983324157DEC005C7531 /* PostFromJsonPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28983224157DEC005C7531 /* PostFromJsonPlaceholder.swift */; };
+		8C28983524157FBE005C7531 /* PlaceholderJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C28983424157FBE005C7531 /* PlaceholderJson.swift */; };
 		8C45B96A240916910051E18A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B969240916910051E18A /* AppDelegate.swift */; };
 		8C45B96C240916910051E18A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45B96B240916910051E18A /* SceneDelegate.swift */; };
 		8C45B973240916930051E18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C45B972240916930051E18A /* Assets.xcassets */; };
@@ -192,6 +197,11 @@
 		804FAA1FDC6E7A6015389F8B /* WelcomeRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeRouterInput.swift; sourceTree = "<group>"; };
 		8185444D79689D76F8957ADD /* CameraViewInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewInteractor.swift; sourceTree = "<group>"; };
 		87D790F73919043FAB08AE8A /* AboutTabModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabModuleInput.swift; sourceTree = "<group>"; };
+		8C28982B24157DA3005C7531 /* NetFun+Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetFun+Auth.swift"; sourceTree = "<group>"; };
+		8C28982C24157DA3005C7531 /* NetFun + NetPlaceholderJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetFun + NetPlaceholderJSON.swift"; sourceTree = "<group>"; };
+		8C28982F24157DC5005C7531 /* NetPlaceholderJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetPlaceholderJSON.swift; sourceTree = "<group>"; };
+		8C28983224157DEC005C7531 /* PostFromJsonPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFromJsonPlaceholder.swift; sourceTree = "<group>"; };
+		8C28983424157FBE005C7531 /* PlaceholderJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderJson.swift; sourceTree = "<group>"; };
 		8C45B966240916910051E18A /* SampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C45B969240916910051E18A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C45B96B240916910051E18A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -466,6 +476,14 @@
 			path = Presenter;
 			sourceTree = "<group>";
 		};
+		8C28983124157DDD005C7531 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				8C28983224157DEC005C7531 /* PostFromJsonPlaceholder.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		8C45B95D240916910051E18A = {
 			isa = PBXGroup;
 			children = (
@@ -549,6 +567,7 @@
 		8C45B982240925470051E18A /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				8C28983124157DDD005C7531 /* Entities */,
 				8C45B9C2240926C20051E18A /* ViewModels */,
 				8C45B9B2240926BA0051E18A /* ViewControllers */,
 				8C45B9AF240926AE0051E18A /* types */,
@@ -715,6 +734,8 @@
 				8C84614124142474008EE5E5 /* NetManager.swift */,
 				8C846154241440C5008EE5E5 /* AuthHandler.swift */,
 				8C84614C24142592008EE5E5 /* NetFun.swift */,
+				8C28982C24157DA3005C7531 /* NetFun + NetPlaceholderJSON.swift */,
+				8C28982B24157DA3005C7531 /* NetFun+Auth.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -726,6 +747,7 @@
 				8C8461502414404A008EE5E5 /* NetTransportService.swift */,
 				8C84614A241424DD008EE5E5 /* MobileNetTransportService.swift */,
 				8C846148241424D1008EE5E5 /* NetManagerService.swift */,
+				8C28982F24157DC5005C7531 /* NetPlaceholderJSON.swift */,
 			);
 			path = protocols;
 			sourceTree = "<group>";
@@ -734,6 +756,7 @@
 			isa = PBXGroup;
 			children = (
 				8C84615824144216008EE5E5 /* common.swift */,
+				8C28983424157FBE005C7531 /* PlaceholderJson.swift */,
 			);
 			path = parsing;
 			sourceTree = "<group>";
@@ -1124,6 +1147,7 @@
 				8C45B99A2409268D0051E18A /* UITableView+Model.swift in Sources */,
 				8DB213D9FF298E1B06FC82D7 /* WelcomeViewController.swift in Sources */,
 				A736F87EB35A022F2A01F79A /* WelcomePresenterInput.swift in Sources */,
+				8C28982D24157DA3005C7531 /* NetFun+Auth.swift in Sources */,
 				8C45B9B1240926AE0051E18A /* SetupableViewCaller.swift in Sources */,
 				8C84616024144352008EE5E5 /* String+Convert.swift in Sources */,
 				8C45B9FA240947DA0051E18A /* DissolveTransition.swift in Sources */,
@@ -1132,6 +1156,7 @@
 				8C45B992240926800051E18A /* Constants.swift in Sources */,
 				8C45B99D2409268D0051E18A /* UINavigationController + Common.swift in Sources */,
 				8C45B9A1240926950051E18A /* functions.swift in Sources */,
+				8C28983024157DC5005C7531 /* NetPlaceholderJSON.swift in Sources */,
 				8C45B9BF240926BB0051E18A /* SingleImagePicker.swift in Sources */,
 				8C45B9CE240926C20051E18A /* MultipleSectionPresenter.swift in Sources */,
 				DB64CEE79891FC0B397228F1 /* WelcomeInteractorOutput.swift in Sources */,
@@ -1139,6 +1164,7 @@
 				8C84614D24142592008EE5E5 /* NetFun.swift in Sources */,
 				8C45B98C240926660051E18A /* ErrableOutput.swift in Sources */,
 				8C45B9CC240926C20051E18A /* EmptyTableModel.swift in Sources */,
+				8C28982E24157DA3005C7531 /* NetFun + NetPlaceholderJSON.swift in Sources */,
 				8C45B99C2409268D0051E18A /* String+Localization.swift in Sources */,
 				8C45B9BC240926BA0051E18A /* CellOperation.swift in Sources */,
 				9300DE61532614682D385286 /* WelcomeInteractor.swift in Sources */,
@@ -1216,9 +1242,11 @@
 				9198B65550650389D9718F21 /* CameraViewRouter.swift in Sources */,
 				32E28834556DFFFFF43A1E16 /* CameraViewModuleInput.swift in Sources */,
 				5FF8C993BCBD6B402F8FBDB5 /* CameraViewModuleOutput.swift in Sources */,
+				8C28983524157FBE005C7531 /* PlaceholderJson.swift in Sources */,
 				D6FFE684645967E69C4F85C2 /* CameraViewModule.swift in Sources */,
 				E8AFE1DFB872D4256F4930A3 /* SphereWorldViewInput.swift in Sources */,
 				FBE9326F911457D1AD467A19 /* SphereWorldViewOutput.swift in Sources */,
+				8C28983324157DEC005C7531 /* PostFromJsonPlaceholder.swift in Sources */,
 				2192ADCA7DCCAB4EB26711B9 /* SphereWorldViewController.swift in Sources */,
 				618DF0F27DEAF7DC428AB42C /* SphereWorldPresenterInput.swift in Sources */,
 				8C84615E24144278008EE5E5 /* SecretServiceProtocol.swift in Sources */,

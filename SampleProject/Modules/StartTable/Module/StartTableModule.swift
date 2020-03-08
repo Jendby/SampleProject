@@ -26,7 +26,7 @@ final class StartTableModule {
         presenter.view = viewController
         presenter.router = router
 
-        let interactor = StartTableInteractor()
+        let interactor = StartTableInteractor(netPlaceholder: ServicesAssembler.inject())
         interactor.output = presenter
 
         presenter.interactor = interactor
