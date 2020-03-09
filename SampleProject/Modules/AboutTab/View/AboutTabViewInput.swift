@@ -9,5 +9,5 @@
 import UIKit
 
 protocol AboutTabViewInput: class, Presentable {
-    func setupInitialState()
+    func setupInitialState(text: String)
 }

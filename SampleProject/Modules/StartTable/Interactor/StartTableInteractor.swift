@@ -27,6 +27,7 @@ extension StartTableInteractor: StartTableInteractorInput  {
                 for item in ans {
                     mm.append(StartTableModel(id: "\(item.id)",
                         about: item.title,
+                        body: item.body,
                         theme: theme))
                 }
                 self.output?.fetched(models: mm)

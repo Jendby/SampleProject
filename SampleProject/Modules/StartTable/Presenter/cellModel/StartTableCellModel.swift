@@ -13,6 +13,7 @@ protocol StartTableCellModel: CommonCell { }
 struct StartTableModel: StartTableCellModel{
     var id: String
     let about: String
+    let body: String
     let theme: Theme
     
     func setup(cell: StartTableCell) {

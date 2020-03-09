@@ -9,7 +9,7 @@
 import UIKit
 
 protocol AboutTabModuleInput {
-    func present(from viewController: UIViewController)
+    func present(from viewController: UIViewController, withText text:String)
     func present()
     func installIn(container view: UIView!, vc: UIViewController)
 }

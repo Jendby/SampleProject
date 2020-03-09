@@ -14,12 +14,15 @@ final class AboutTabPresenter {
     var interactor: AboutTabInteractorInput!
     var router: AboutTabRouterInput!
     var retained: UIViewController? = nil
+    private var bodyText: String!
 }
 
 // MARK: - AboutTabModuleInput
 extension AboutTabPresenter: AboutTabModuleInput {
-	func present(from viewController: UIViewController) {
-		// TODO: add me
+	func present(from viewController: UIViewController, withText text:String) {
+        bodyText = text
+        self.view.present(from: viewController)
+        retained = nil
 	}
 
 	func present() {
@@ -34,6 +37,7 @@ extension AboutTabPresenter: AboutTabModuleInput {
 // MARK: - AboutTabViewOutput
 extension AboutTabPresenter: AboutTabViewOutput {
     func viewIsReady() {
+        self.view.setupInitialState(text: bodyText)
     }
 }
 

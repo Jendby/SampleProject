@@ -53,6 +53,8 @@ extension StartTablePresenter: StartTableInteractorOutput {
 // MARK: - SingleSectionPresenterDelegate
 extension StartTablePresenter: SingleSectionPresenterDelegate {
     func modelChanged(model: CellAnyModel, index: Int) {
-        
+        if let m = model as? StartTableModel {
+            AboutTabModule.create().present(from: self.view.viewController, withText: m.body)
+        }
     }
 }
