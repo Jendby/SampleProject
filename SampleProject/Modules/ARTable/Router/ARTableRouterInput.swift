@@ -11,4 +11,5 @@ import UIKit
 protocol ARTableRouterInput {
     func createSphere(from vc:UIViewController)
     func cameraView(from vc:UIViewController)
+    func ARQRTracking(from vc:UIViewController)
 }

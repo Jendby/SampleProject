@@ -10,6 +10,7 @@ import UIKit
 enum ARTableType {
     case cameraView
     case sphereScene
+    case ARQRTracking
 }
 
 final class ARTablePresenter:SingleSectionPresenter {
@@ -60,6 +61,9 @@ extension ARTablePresenter: SingleSectionPresenterDelegate {
             }
             if m.type == .sphereScene {
                 router.createSphere(from: self.view.viewController)
+            }
+            if m.type == .ARQRTracking {
+                router.ARQRTracking(from: self.view.viewController)
             }
         }
     }

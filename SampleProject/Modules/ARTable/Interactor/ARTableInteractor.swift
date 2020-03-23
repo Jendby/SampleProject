@@ -23,7 +23,11 @@ extension ARTableInteractor: ARTableInteractorInput  {
             ARTableModel(id: "360 sphere scene",
                          about: "360 sphere scene",
                          theme: theme,
-                         type: .sphereScene)])
+                         type: .sphereScene),
+            ARTableModel(id: "ARQRTracking",
+                         about: "QR Tracking",
+                         theme: theme,
+                         type: .ARQRTracking)])
     }
     
 }

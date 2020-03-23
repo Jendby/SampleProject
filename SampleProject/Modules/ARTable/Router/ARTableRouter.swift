@@ -20,5 +20,7 @@ extension ARTableRouter: ARTableRouterInput {
     func cameraView(from vc: UIViewController) {
         CameraViewModule.create().present(from: vc)
     }
-    
+    func ARQRTracking(from vc:UIViewController) {
+        ARQRTrackingModule.create().present(from: vc)
+    }
 }
