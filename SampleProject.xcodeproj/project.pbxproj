@@ -133,6 +133,7 @@
 		8C84615D24144278008EE5E5 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84615B24144278008EE5E5 /* Secret.swift */; };
 		8C84615E24144278008EE5E5 /* SecretServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84615C24144278008EE5E5 /* SecretServiceProtocol.swift */; };
 		8C84616024144352008EE5E5 /* String+Convert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84615F24144352008EE5E5 /* String+Convert.swift */; };
+		8C84BCFF24293B6B00FB09B3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C84BCFE24293B6B00FB09B3 /* art.scnassets */; };
 		8DB213D9FF298E1B06FC82D7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376D885BAAC755250A969F5C /* WelcomeViewController.swift */; };
 		917CD3AEC3D35FDA85C5D89E /* StartTableRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEC0B832697F8B1992653AA /* StartTableRouter.swift */; };
 		9198B65550650389D9718F21 /* CameraViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8555F6F59484F1AC0DC332C /* CameraViewRouter.swift */; };
@@ -313,6 +314,7 @@
 		8C84615B24144278008EE5E5 /* Secret.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		8C84615C24144278008EE5E5 /* SecretServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecretServiceProtocol.swift; sourceTree = "<group>"; };
 		8C84615F24144352008EE5E5 /* String+Convert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Convert.swift"; sourceTree = "<group>"; };
+		8C84BCFE24293B6B00FB09B3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		8C913604A905664A6F58F703 /* AboutTabInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabInteractorInput.swift; sourceTree = "<group>"; };
 		8F36AB7400E02F31E2EB2808 /* StartTableModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableModuleOutput.swift; sourceTree = "<group>"; };
 		8F985AB89ADFBE0988015B3B /* WelcomeModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeModuleOutput.swift; sourceTree = "<group>"; };
@@ -401,7 +403,6 @@
 				7017D0806059FF24D0B382BD /* ARQRTrackingPresenterInput.swift */,
 				F8FF2F6AE8F1A23672205359 /* ARQRTrackingPresenter.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -436,7 +437,6 @@
 				7CC5E034ED0B2BDE31B9BF10 /* Router */,
 				C494B4DF3FCFCF899355FDD3 /* Module */,
 			);
-			name = ARQRTracking;
 			path = ARQRTracking;
 			sourceTree = "<group>";
 		};
@@ -577,7 +577,6 @@
 				3A188DE18D8273AFE996426C /* ARQRTrackingRouterInput.swift */,
 				4FF28F8D3A0E2C5CF6841396 /* ARQRTrackingRouter.swift */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -679,6 +678,7 @@
 		8C45B97F240924A10051E18A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8C84BCFE24293B6B00FB09B3 /* art.scnassets */,
 				8C45B972240916930051E18A /* Assets.xcassets */,
 				8C45BC6B240D15AE0051E18A /* 360View.xcassets */,
 			);
@@ -951,7 +951,6 @@
 				4EF2B81211A348FC20177B0E /* ARQRTrackingViewOutput.swift */,
 				9A830328C8A5E0C9BF83B74D /* ARQRTrackingViewController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -1054,7 +1053,6 @@
 				F2522673DE40B3B58AE4DE28 /* ARQRTrackingModuleOutput.swift */,
 				CA149F411D51BE703C2DCE0D /* ARQRTrackingModule.swift */,
 			);
-			name = Module;
 			path = Module;
 			sourceTree = "<group>";
 		};
@@ -1128,7 +1126,6 @@
 				6CA6B3182F7C06A7622C15F4 /* ARQRTrackingInteractorOutput.swift */,
 				423106E905BBC24F0D8FBFFF /* ARQRTrackingInteractor.swift */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -1274,6 +1271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C45B976240916930051E18A /* LaunchScreen.storyboard in Resources */,
+				8C84BCFF24293B6B00FB09B3 /* art.scnassets in Resources */,
 				8C45B9D424092C850051E18A /* Welcome.storyboard in Resources */,
 				8C45BC6C240D15AE0051E18A /* 360View.xcassets in Resources */,
 				8C28983B2415932D005C7531 /* ARTableCell.xib in Resources */,
