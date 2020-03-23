@@ -28,6 +28,8 @@
 "Failed to get the camera device" = "Ошибка в доступе к камере, предоставьте доступ в настройках";
 "Enable camera" = "Включить камеру";
 "Disable camera" = "Выключить камеру";
+"Add sphere" = "Добавить сферу";
+"Remove sphere" = "Удалить сферу";
 
 //StartTable
 "List" = "Список";

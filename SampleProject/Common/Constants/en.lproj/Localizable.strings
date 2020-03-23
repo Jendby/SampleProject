@@ -28,6 +28,8 @@
 "Failed to get the camera device" = "Failed to get the camera device";
 "Enable camera" = "Enable camera";
 "Disable camera" = "Disable camera";
+"Add sphere" = "Add sphere";
+"Remove sphere" = "Remove sphere";
 
 //StartTable
 "List" = "List";

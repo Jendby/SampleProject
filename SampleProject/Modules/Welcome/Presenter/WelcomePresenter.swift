@@ -39,7 +39,7 @@ extension WelcomePresenter: WelcomeViewOutput {
     func gradientBtnTapped() {
         switch currentType {
         case .phone:
-            print("asd")
+            router.createTabbar(from: self.view.viewController)
         case .start:
             currentType = .phone
             view.scrollToIndex(index: WelcomeType.phone.rawValue)

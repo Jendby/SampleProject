@@ -38,7 +38,11 @@ final class SphereWorldViewController: BaseViewController {
 // MARK: - SphereWorldViewInput
 extension SphereWorldViewController: SphereWorldViewInput {
     func set360btn(tracked: Bool) {
-        rItem.title = "ads"
+        if tracked {
+            rItem.title = "Remove sphere".localized
+        } else {
+            rItem.title = "Add sphere".localized
+        }
     }
     
     func setupInitialState() {
