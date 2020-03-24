@@ -23,4 +23,7 @@ extension ARTableRouter: ARTableRouterInput {
     func ARQRTracking(from vc:UIViewController) {
         ARQRTrackingModule.create().present(from: vc)
     }
+    func ARImageTracking(from vc:UIViewController) {
+        ARImageTrackingModule.create().present(from: vc)
+    }
 }

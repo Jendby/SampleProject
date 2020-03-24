@@ -14,6 +14,7 @@ final class SphereWorldModule {
         let router = SphereWorldRouter()
 
         let viewController = SphereWorldViewController()
+        viewController.hidesBottomBarWhenPushed = true
 
         let presenter = SphereWorldPresenter(motionTracker: ServicesAssembler.inject())
         presenter.retained = viewController

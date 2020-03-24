@@ -14,6 +14,7 @@ final class ARQRTrackingModule {
         let router = ARQRTrackingRouter()
 
         let viewController = ARQRTrackingViewController()
+        viewController.hidesBottomBarWhenPushed = true
 
         let presenter = ARQRTrackingPresenter()
         presenter.retained = viewController

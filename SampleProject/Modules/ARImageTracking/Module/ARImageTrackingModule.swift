@@ -14,7 +14,8 @@ final class ARImageTrackingModule {
         let router = ARImageTrackingRouter()
 
         let viewController = ARImageTrackingViewController()
-
+        viewController.hidesBottomBarWhenPushed = true
+        
         let presenter = ARImageTrackingPresenter()
         presenter.retained = viewController
         presenter.view = viewController

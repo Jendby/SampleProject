@@ -27,7 +27,11 @@ extension ARTableInteractor: ARTableInteractorInput  {
             ARTableModel(id: "ARQRTracking",
                          about: "QR Tracking",
                          theme: theme,
-                         type: .ARQRTracking)])
+                         type: .ARQRTracking),
+            ARTableModel(id: "ImageTracking",
+                         about: "Image Tracking",
+                         theme: theme,
+                         type: .ARImageTracking)])
     }
     
 }

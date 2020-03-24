@@ -11,6 +11,7 @@ enum ARTableType {
     case cameraView
     case sphereScene
     case ARQRTracking
+    case ARImageTracking
 }
 
 final class ARTablePresenter:SingleSectionPresenter {
@@ -64,6 +65,9 @@ extension ARTablePresenter: SingleSectionPresenterDelegate {
             }
             if m.type == .ARQRTracking {
                 router.ARQRTracking(from: self.view.viewController)
+            }
+            if m.type == .ARImageTracking {
+                router.ARImageTracking(from: self.view.viewController)
             }
         }
     }

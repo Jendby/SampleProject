@@ -473,7 +473,6 @@
 				C1DEC54F7E601E5D7625EA54 /* ARImageTrackingInteractorOutput.swift */,
 				21469C7DBB58D819B748F737 /* ARImageTrackingInteractor.swift */,
 			);
-			name = Interactor;
 			path = Interactor;
 			sourceTree = "<group>";
 		};
@@ -529,7 +528,6 @@
 				51A0CA404499A45591ED5E9A /* ARImageTrackingModuleOutput.swift */,
 				97AC96A00EBB79DFDC3D7CF3 /* ARImageTrackingModule.swift */,
 			);
-			name = Module;
 			path = Module;
 			sourceTree = "<group>";
 		};
@@ -594,7 +592,6 @@
 				96AB600088F144121B3BA3F0 /* ARImageTrackingPresenterInput.swift */,
 				D2B670AAC60383B46E1F23A9 /* ARImageTrackingPresenter.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -1085,7 +1082,6 @@
 				E8F33185C8D42695949C2007 /* Router */,
 				49FB1A99C996C5528CE6C55C /* Module */,
 			);
-			name = ARImageTracking;
 			path = ARImageTracking;
 			sourceTree = "<group>";
 		};
@@ -1208,7 +1204,6 @@
 				D598DE425F505CDED0E0A24E /* ARImageTrackingViewOutput.swift */,
 				4FA80C69E4A7F8006BB1C2DD /* ARImageTrackingViewController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -1239,7 +1234,6 @@
 				DB18ED103F5D848D4F932AA7 /* ARImageTrackingRouterInput.swift */,
 				58012BA16A643D2559B1ADE9 /* ARImageTrackingRouter.swift */,
 			);
-			name = Router;
 			path = Router;
 			sourceTree = "<group>";
 		};
@@ -1791,7 +1785,7 @@
 				8C45B979240916930051E18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		8C45B97A240916930051E18A /* Build configuration list for PBXNativeTarget "SampleProject" */ = {
 			isa = XCConfigurationList;
@@ -1800,7 +1794,7 @@
 				8C45B97C240916930051E18A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

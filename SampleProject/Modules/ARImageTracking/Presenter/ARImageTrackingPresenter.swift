@@ -8,6 +8,11 @@
 
 import UIKit
 
+enum TrackingImage: String {
+    case bubble = "buble"
+    case candy = "candy"
+}
+
 final class ARImageTrackingPresenter {
 
     weak var view: ARImageTrackingViewInput!
