@@ -10,4 +10,5 @@ import UIKit
 
 protocol DataFromFramTextRecInteractorInput: SingleSectionInteractorInput {
     var output: DataFromFramTextRecInteractorOutput? { get set }
+    func recognized(phones: [PhoneNumberWithCorner])
 }

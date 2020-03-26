@@ -18,8 +18,16 @@ struct DataFromFTRModel: DataFromFTRCellModel{
     let theme: Theme
     
     func setup(cell: DataFromFTRCell) {
-        cell.phoneNumber.text = phoneNumber
-        cell.topLeft.text = topleft
-        cell.btmright.text = btmright
+        if phoneNumber == "" && topleft == "" && btmright == "" {
+            cell.phoneNumber.text = "Empty, try to find one".localized
+            cell.phoneNumber.font = theme.boldFont.withSize(30)
+            cell.topLeft.text = ""
+            cell.btmright.text = ""
+        } else {
+            cell.phoneNumber.text = "Phone: " + phoneNumber
+            cell.phoneNumber.font = theme.boldFont.withSize(30)
+            cell.topLeft.text = "topleft: " + topleft
+            cell.btmright.text = "btmright: " + btmright
+        }
     }
 }

@@ -14,7 +14,7 @@ final class DataFromFramTextRecViewController: BaseTableViewController {
     // MARK: Life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        let rItem = UIBarButtonItem(title: "Scan", style: .plain, target: self, action: #selector(tItemTapped))
+        let rItem = UIBarButtonItem(title: "Scan".localized, style: .plain, target: self, action: #selector(tItemTapped))
         navigationItem.rightBarButtonItem = rItem
         output.viewIsReady()
     }

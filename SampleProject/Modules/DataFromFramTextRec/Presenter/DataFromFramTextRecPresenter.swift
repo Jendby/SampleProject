@@ -17,6 +17,10 @@ final class DataFromFramTextRecPresenter: SingleSectionPresenter {
 	}
 	var retained: UIViewController? = nil
     var router: DataFromFramTextRecRouterInput!
+    
+    override func getContents() {
+        source?.loadModels(with: theme)
+    }
 }
 
 // MARK: - DataFromFramTextRecModuleInput
@@ -32,10 +36,18 @@ extension  DataFromFramTextRecPresenter: DataFromFramTextRecViewOutput {
     func viewIsReady() {
     }
     func navtouched() {
-        router.createTextRecogniser(from: self.view.viewController)
+        router.createTextRecogniser(from: self.view.viewController,
+                                    output: self)
     }
 }
 
 // MARK: - DataFromFramTextRecInteractorOutput
 extension  DataFromFramTextRecPresenter: DataFromFramTextRecInteractorOutput {
+}
+// MARK: - FrameworkTextRecognModuleOutput
+extension  DataFromFramTextRecPresenter: FrameworkTextRecognModuleOutput {
+    func recognized(phones: [PhoneNumberWithCorner]) {
+        interactor.recognized(phones: phones)
+        self.refreshContents()
+    }
 }

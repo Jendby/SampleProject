@@ -9,5 +9,5 @@
 import UIKit
 
 protocol DataFromFramTextRecRouterInput {
-    func createTextRecogniser(from vc:UIViewController)
+    func createTextRecogniser(from vc:UIViewController, output: FrameworkTextRecognModuleOutput)
 }

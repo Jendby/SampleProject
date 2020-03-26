@@ -10,14 +10,32 @@ import UIKit
 
 final class DataFromFramTextRecInteractor {
     weak var output: DataFromFramTextRecInteractorOutput?
+    var phones = [PhoneNumberWithCorner]()
 }
 
 extension DataFromFramTextRecInteractor: DataFromFramTextRecInteractorInput {
+    func recognized(phones: [PhoneNumberWithCorner]) {
+        self.phones = phones
+    }
+    
 	func loadModels(with theme: Theme) {
-        output?.fetched(models: [DataFromFTRModel(id: "d",
-                                                  phoneNumber: "",
-                                                  topleft: "a",
-                                                  btmright: "a",
-                                                  theme: theme)])
+        if phones.isEmpty {
+            output?.fetched(models: [DataFromFTRModel(id: "empty",
+                                                      phoneNumber: "",
+                                                      topleft: "",
+                                                      btmright: "",
+                                                      theme: theme)])
+        } else {
+            var data = [DataFromFTRModel]()
+            for item in phones {
+                data.append(DataFromFTRModel(id: item.phoneNumber,
+                                             phoneNumber: item.phoneNumber,
+                                             topleft: item.topLeft,
+                                             btmright: item.btmright,
+                                             theme: theme))
+            }
+            output?.fetched(models: data)
+        }
+        
 	}
 }

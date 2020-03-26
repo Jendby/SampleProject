@@ -33,3 +33,7 @@
 
 //StartTable
 "List" = "List";
+
+//TextRecognizer
+"Scan" = "Scan";
+"Empty, try to find one" = "Empty, try to find one";

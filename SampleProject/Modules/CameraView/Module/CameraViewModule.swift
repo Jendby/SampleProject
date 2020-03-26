@@ -14,6 +14,7 @@ final class CameraViewModule {
         let router = CameraViewRouter()
 
         let viewController = CameraViewViewController()
+        viewController.hidesBottomBarWhenPushed = true
 
         let presenter = CameraViewPresenter(camConnectService: ServicesAssembler.inject())
         presenter.retained = viewController

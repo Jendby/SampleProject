@@ -9,5 +9,5 @@
 import UIKit
 
 protocol FrameworkTextRecognModuleOutput: class {
-
+    func recognized(phones: [PhoneNumberWithCorner])
 }

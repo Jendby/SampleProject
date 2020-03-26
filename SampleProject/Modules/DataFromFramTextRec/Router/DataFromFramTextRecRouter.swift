@@ -11,7 +11,8 @@ import UIKit
 final class DataFromFramTextRecRouter { }
 
 extension DataFromFramTextRecRouter: DataFromFramTextRecRouterInput {
-    func createTextRecogniser(from vc:UIViewController) {
-        FrameworkTextRecognModule.create().present(from: vc)
+    func createTextRecogniser(from vc:UIViewController,
+                              output: FrameworkTextRecognModuleOutput) {
+        FrameworkTextRecognModule.create(output: output).present(from: vc)
     }
 }

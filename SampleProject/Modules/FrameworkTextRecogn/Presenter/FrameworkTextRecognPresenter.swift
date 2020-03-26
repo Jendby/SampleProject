@@ -12,7 +12,7 @@ import SampleFramework
 #endif
 
 final class FrameworkTextRecognPresenter {
-
+    var output: FrameworkTextRecognModuleOutput? = nil
     weak var view: FrameworkTextRecognViewInput!
     var interactor: FrameworkTextRecognInteractorInput!
     var router: FrameworkTextRecognRouterInput!
@@ -59,7 +59,14 @@ extension FrameworkTextRecognPresenter: FrameworkTextRecognInteractorOutput {
 // MARK: - SampleFrameworkDelegate
 extension FrameworkTextRecognPresenter: SampleFrameworkDelegate {
     func getPhoneNumbers(numbers: [[String : String]]) {
-        print(numbers)
+        var data = [PhoneNumberWithCorner]()
+        for item in numbers {
+            data.append(
+                PhoneNumberWithCorner(phoneNumber: item["phone"] ?? "",
+                                      topLeft: item["topleft"] ?? "",
+                                      btmright: item["botright"] ?? ""))
+        }
+        output?.recognized(phones: data)
     }
 }
 #endif

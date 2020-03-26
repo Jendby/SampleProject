@@ -33,3 +33,7 @@
 
 //StartTable
 "List" = "Список";
+
+//TextRecognizer
+"Scan" = "Сканировать";
+"Empty, try to find one" = "Пусто, попробуйте поискать";

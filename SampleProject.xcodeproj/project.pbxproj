@@ -145,6 +145,7 @@
 		8C4E4341242D357500274078 /* DataFromFTRCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E433F242D357500274078 /* DataFromFTRCell.swift */; };
 		8C4E4342242D357500274078 /* DataFromFTRCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4E4340242D357500274078 /* DataFromFTRCell.xib */; };
 		8C4E4345242D371F00274078 /* DataFromFTRModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E4344242D371F00274078 /* DataFromFTRModel.swift */; };
+		8C4E4347242D3CD400274078 /* PhoneNumberWithCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E4346242D3CD400274078 /* PhoneNumberWithCorner.swift */; };
 		8C84614224142474008EE5E5 /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84614124142474008EE5E5 /* NetManager.swift */; };
 		8C846145241424A5008EE5E5 /* MobileNetTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846143241424A5008EE5E5 /* MobileNetTransport.swift */; };
 		8C846146241424A5008EE5E5 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846144241424A5008EE5E5 /* NetworkConfig.swift */; };
@@ -381,6 +382,7 @@
 		8C4E433F242D357500274078 /* DataFromFTRCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFromFTRCell.swift; sourceTree = "<group>"; };
 		8C4E4340242D357500274078 /* DataFromFTRCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DataFromFTRCell.xib; sourceTree = "<group>"; };
 		8C4E4344242D371F00274078 /* DataFromFTRModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFromFTRModel.swift; sourceTree = "<group>"; };
+		8C4E4346242D3CD400274078 /* PhoneNumberWithCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberWithCorner.swift; sourceTree = "<group>"; };
 		8C84614124142474008EE5E5 /* NetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
 		8C846143241424A5008EE5E5 /* MobileNetTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNetTransport.swift; sourceTree = "<group>"; };
 		8C846144241424A5008EE5E5 /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
@@ -808,6 +810,7 @@
 			isa = PBXGroup;
 			children = (
 				8C28983224157DEC005C7531 /* PostFromJsonPlaceholder.swift */,
+				8C4E4346242D3CD400274078 /* PhoneNumberWithCorner.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -1678,6 +1681,7 @@
 				5FD21FA274A2A414D8737C13 /* WelcomeInteractorInput.swift in Sources */,
 				8C45B992240926800051E18A /* Constants.swift in Sources */,
 				8C45B99D2409268D0051E18A /* UINavigationController + Common.swift in Sources */,
+				8C4E4347242D3CD400274078 /* PhoneNumberWithCorner.swift in Sources */,
 				8C45B9A1240926950051E18A /* functions.swift in Sources */,
 				8C28983024157DC5005C7531 /* NetPlaceholderJSON.swift in Sources */,
 				8C45B9BF240926BB0051E18A /* SingleImagePicker.swift in Sources */,

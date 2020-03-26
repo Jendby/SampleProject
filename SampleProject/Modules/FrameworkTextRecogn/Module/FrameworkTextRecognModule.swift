@@ -10,15 +10,17 @@ import UIKit
 
 final class FrameworkTextRecognModule {
 
-    class func create() -> FrameworkTextRecognModuleInput {
+    class func create(output: FrameworkTextRecognModuleOutput) -> FrameworkTextRecognModuleInput {
         let router = FrameworkTextRecognRouter()
 
         let viewController = FrameworkTextRecognViewController()
+        viewController.hidesBottomBarWhenPushed = true
 
         let presenter = FrameworkTextRecognPresenter()
         presenter.retained = viewController
         presenter.view = viewController
         presenter.router = router
+        presenter.output = output
 
         let interactor = FrameworkTextRecognInteractor()
         interactor.output = presenter
