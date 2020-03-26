@@ -13,4 +13,5 @@ protocol ARTableRouterInput {
     func cameraView(from vc:UIViewController)
     func ARQRTracking(from vc:UIViewController)
     func ARImageTracking(from vc:UIViewController)
+    func FrameworkTextTracking(from vc:UIViewController)
 }

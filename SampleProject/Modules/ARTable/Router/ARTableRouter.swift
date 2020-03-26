@@ -26,4 +26,7 @@ extension ARTableRouter: ARTableRouterInput {
     func ARImageTracking(from vc:UIViewController) {
         ARImageTrackingModule.create().present(from: vc)
     }
+    func FrameworkTextTracking(from vc:UIViewController) {
+        DataFromFramTextRecModule.create().present(from: vc)
+    }
 }

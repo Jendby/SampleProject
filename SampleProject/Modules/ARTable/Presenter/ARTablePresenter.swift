@@ -71,7 +71,7 @@ extension ARTablePresenter: SingleSectionPresenterDelegate {
                 router.ARImageTracking(from: self.view.viewController)
             }
             if m.type == .FrameworkTextRecogniser {
- 
+                router.FrameworkTextTracking(from: self.view.viewController)
             }
         }
     }
