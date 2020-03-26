@@ -14,6 +14,7 @@
 		0BA2FCEA6578C936DAA995F9 /* ARTableInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E11F5FA3E99D9F2E6CFA37 /* ARTableInteractor.swift */; };
 		0EB7C16F95B25066DA20CB2C /* TabBarModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3520211B289F4E99439B9B7 /* TabBarModule.swift */; };
 		0F98A926C51A143EB0CBA79B /* AboutTabPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A140601DCFE6A4E3F9C218 /* AboutTabPresenter.swift */; };
+		1169E5527006D0016F03013C /* FrameworkTextRecognViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3627E8AD416594ECCAE06B /* FrameworkTextRecognViewInput.swift */; };
 		134805EFC7693619305C588C /* ARTableModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778CA7179B3EBA30C5C56B51 /* ARTableModuleInput.swift */; };
 		167F8ABCF1E75A4E55652DE6 /* TabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46CDE101BAFB001C5FD1D44 /* TabBarInteractor.swift */; };
 		17B0958D5060CE179F5D0473 /* AboutTabModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C5A1A212543F71BCFA2EEB /* AboutTabModule.swift */; };
@@ -22,6 +23,7 @@
 		1BC131D41B02747850EA2BBF /* TabBarModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D976B551E14A5E5D22BCC9EA /* TabBarModuleInput.swift */; };
 		1D40F68C180D5269B6CEE150 /* ARImageTrackingViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D598DE425F505CDED0E0A24E /* ARImageTrackingViewOutput.swift */; };
 		1F1D48696ECCDB2AD043D331 /* SphereWorldRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443CF64724A776BF3414154 /* SphereWorldRouterInput.swift */; };
+		1F2798EB35B47934A617776E /* FrameworkTextRecognModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D3B2BE4102F06D7B5FD23 /* FrameworkTextRecognModuleOutput.swift */; };
 		2192ADCA7DCCAB4EB26711B9 /* SphereWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC338ECD292B61658C5BEBC9 /* SphereWorldViewController.swift */; };
 		2DE8903BC927C14A9F96AF58 /* ARImageTrackingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA80C69E4A7F8006BB1C2DD /* ARImageTrackingViewController.swift */; };
 		32983F6FA208159154C4DC84 /* ARQRTrackingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423106E905BBC24F0D8FBFFF /* ARQRTrackingInteractor.swift */; };
@@ -32,6 +34,7 @@
 		3BDD9846CC7B10F93A3BE32D /* ARTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C2620C89A65417631485EE /* ARTableViewController.swift */; };
 		3D5E3FF1EA32F1BBA3FA55D8 /* ARImageTrackingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B670AAC60383B46E1F23A9 /* ARImageTrackingPresenter.swift */; };
 		3D7F4BA68A966A6DADC4B6F6 /* AboutTabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB949D3897E8208F62D589DC /* AboutTabRouter.swift */; };
+		408F345FF443806AD362220B /* FrameworkTextRecognInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D392106DE928EE32BAB72A02 /* FrameworkTextRecognInteractor.swift */; };
 		43D188BD35002498FA24E903 /* AboutTabRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E51637392CAACC48D174CC /* AboutTabRouterInput.swift */; };
 		443D10DFBC524485EAE53EF3 /* SphereWorldModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA517A783E1231D53D25C18 /* SphereWorldModule.swift */; };
 		4531F1B66039E2B7491ECEC8 /* StartTablePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9158141FEE25801C55BEB7 /* StartTablePresenter.swift */; };
@@ -39,9 +42,11 @@
 		48F586950979850EA73E73FA /* ARQRTrackingModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA149F411D51BE703C2DCE0D /* ARQRTrackingModule.swift */; };
 		4CDFB1A17FB585B5A4EA8E17 /* ARTableModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49CF345E9C752204F6B0AC9 /* ARTableModuleOutput.swift */; };
 		4E35C0B579AC7E47262C6E92 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED3BC70420418CEDA1E827B /* TabBarViewController.swift */; };
+		4E771CDCF9D1124964839BE2 /* FrameworkTextRecognModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = E979D6F680BBEFD24BB520CA /* FrameworkTextRecognModule.swift */; };
 		50E29ED7D686DFD95A5E0385 /* ARQRTrackingViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF2B81211A348FC20177B0E /* ARQRTrackingViewOutput.swift */; };
 		516A3EDB7C1AAADDF1BB0EDC /* CameraViewRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D9CB3C903161DC0A384C60 /* CameraViewRouterInput.swift */; };
 		51B7EDEA5FBD8543E11A48D8 /* TabBarViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58AF8EBE810A32654F3FD39 /* TabBarViewInput.swift */; };
+		5A872FBF4FFBE1F058A2CF04 /* FrameworkTextRecognModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6D85ACFF59F9E2A88D6D6C /* FrameworkTextRecognModuleInput.swift */; };
 		5AAC4F9F66EB2E4FFD472099 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B02E3E8DE39D89A95EA6B507 /* TabBarPresenter.swift */; };
 		5B1B3655A3566766A0E06118 /* WelcomeModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D5CEFFF35BC63486F55990E /* WelcomeModuleInput.swift */; };
 		5FD21FA274A2A414D8737C13 /* WelcomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77EE4555ABBA9E35C4C898D5 /* WelcomeInteractorInput.swift */; };
@@ -66,7 +71,9 @@
 		75B2028CE9C8607A29F13969 /* ARTableModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94F1E67DF9914F58E22148 /* ARTableModule.swift */; };
 		7C9A073587502BD1093CDBA6 /* AboutTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5762E494DA15C896A1FB96E /* AboutTabViewController.swift */; };
 		7F50B2CF65352F98EBF40405 /* ARTableInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F1C7C4182C69B8D8C867C /* ARTableInteractorInput.swift */; };
+		8181D797B3B0D02CFB70C53D /* FrameworkTextRecognInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD20B521A25F7FC456650863 /* FrameworkTextRecognInteractorOutput.swift */; };
 		81B14B605135A5A83880BF1F /* CameraViewViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD3092B431A8C38F3093602 /* CameraViewViewOutput.swift */; };
+		82B5A3F7250B7B455543AEA8 /* FrameworkTextRecognRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BFB890935DAF94B57FF3BC /* FrameworkTextRecognRouterInput.swift */; };
 		84FA67120EAF813D15C97FA3 /* ARImageTrackingPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96AB600088F144121B3BA3F0 /* ARImageTrackingPresenterInput.swift */; };
 		85A4B775A86671D62D1A7DE0 /* StartTableViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4017E89E2EF2F63C9C9BAB4A /* StartTableViewOutput.swift */; };
 		87B513743F507EB29B6A67E4 /* ARQRTrackingRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A188DE18D8273AFE996426C /* ARQRTrackingRouterInput.swift */; };
@@ -127,6 +134,9 @@
 		8C45BC68240D0DDF0051E18A /* MotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC67240D0DDF0051E18A /* MotionTracker.swift */; };
 		8C45BC6A240D0DFC0051E18A /* MotionTrackerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C45BC69240D0DFC0051E18A /* MotionTrackerService.swift */; };
 		8C45BC6C240D15AE0051E18A /* 360View.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C45BC6B240D15AE0051E18A /* 360View.xcassets */; };
+		8C4E4338242D07B800274078 /* UIView+ConstrainedUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4E4337242D07B800274078 /* UIView+ConstrainedUIView.swift */; };
+		8C4E4339242D084300274078 /* SampleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4E4335242D073900274078 /* SampleFramework.framework */; };
+		8C4E433A242D084300274078 /* SampleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4E4335242D073900274078 /* SampleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8C84614224142474008EE5E5 /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C84614124142474008EE5E5 /* NetManager.swift */; };
 		8C846145241424A5008EE5E5 /* MobileNetTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846143241424A5008EE5E5 /* MobileNetTransport.swift */; };
 		8C846146241424A5008EE5E5 /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C846144241424A5008EE5E5 /* NetworkConfig.swift */; };
@@ -148,6 +158,8 @@
 		9300DE61532614682D385286 /* WelcomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6312A0E68DDB271ED84491A7 /* WelcomeInteractor.swift */; };
 		9477AA16594331A79497C923 /* ARTableViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1983022F0BD8198C10305E26 /* ARTableViewInput.swift */; };
 		953BDD5BB5495AE41E87D7DE /* ARImageTrackingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21469C7DBB58D819B748F737 /* ARImageTrackingInteractor.swift */; };
+		961DAD6FEB0657DB5230B119 /* FrameworkTextRecognViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC83B2746D7A61C5BCA35B /* FrameworkTextRecognViewOutput.swift */; };
+		99F6691D64088A2B56B042B3 /* FrameworkTextRecognPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D7B26791CD14E81A86444C /* FrameworkTextRecognPresenter.swift */; };
 		9B9FBD2873714A6153EAE7F8 /* TabBarViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B465B4E6029ECFBF287AC9 /* TabBarViewOutput.swift */; };
 		9D15BFF209CF6CBC87AE2A5D /* ARQRTrackingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FF2F6AE8F1A23672205359 /* ARQRTrackingPresenter.swift */; };
 		9DAA859CCA3D7688B7222887 /* WelcomeRouterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804FAA1FDC6E7A6015389F8B /* WelcomeRouterInput.swift */; };
@@ -163,10 +175,12 @@
 		AF9D9C50C8ED22314D0D6803 /* Pods_SampleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2320EEBF52F72AA93A7701CF /* Pods_SampleProject.framework */; };
 		B08707357A2F5A66221D525B /* SphereWorldPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F0F484F48ABEA83376B7B7 /* SphereWorldPresenter.swift */; };
 		B207EA4B295136D367CBE77C /* AboutTabViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409B39FD0DB73C0FEDAB79DD /* AboutTabViewInput.swift */; };
+		B5544AD545DA6EB84DAC8544 /* FrameworkTextRecognRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F6AEEC534725DA8481F194 /* FrameworkTextRecognRouter.swift */; };
 		B827395B78EDF3C9040D2825 /* ARImageTrackingModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A734304BEC152E28EB3BC608 /* ARImageTrackingModuleInput.swift */; };
 		B91B576138B04FFE99CA19CA /* CameraViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A276041A0136C491D5503C /* CameraViewViewController.swift */; };
 		C2883457BAA42794B69B0576 /* WelcomeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBAEEDD2BD1308D34CBA84B /* WelcomeModule.swift */; };
 		C2CC99964580106586309DAD /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22627AE46846FC368284868 /* TabBarRouter.swift */; };
+		C33A107954DAD0F042209828 /* FrameworkTextRecognViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0240DB8913E3615AA645AD76 /* FrameworkTextRecognViewController.swift */; };
 		D1A6A2A36F4435B17B5FD02B /* SphereWorldModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2147D02B9B440B3B642136FB /* SphereWorldModuleInput.swift */; };
 		D1E7ED1A3111F4F70A9E03E9 /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258CC766F218EE5AE2EE793 /* WelcomeRouter.swift */; };
 		D38D20737921E8ECA7FE53D1 /* ARTableRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8E72A8206B6974223E381D /* ARTableRouter.swift */; };
@@ -178,12 +192,14 @@
 		DAF8A9490CD8DC116AC2307C /* AboutTabInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C913604A905664A6F58F703 /* AboutTabInteractorInput.swift */; };
 		DB64CEE79891FC0B397228F1 /* WelcomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F4E218495C202213F6E9EB /* WelcomeInteractorOutput.swift */; };
 		DBB4EA54E3158C51AE41EC1B /* AboutTabPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7243464CA9FF90B24E8B9225 /* AboutTabPresenterInput.swift */; };
+		E1F5DB0ECD108F6A57C14A21 /* FrameworkTextRecognInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = F659E29D5049E3F5461B3C72 /* FrameworkTextRecognInteractorInput.swift */; };
 		E27D2F2530233145641C866F /* StartTableInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B835989A36285077C56FD4 /* StartTableInteractorInput.swift */; };
 		E7880F3DD4FD1F4F330E337E /* ARImageTrackingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58012BA16A643D2559B1ADE9 /* ARImageTrackingRouter.swift */; };
 		E8AFE1DFB872D4256F4930A3 /* SphereWorldViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = E230FB5DC777EE987A0EAE9A /* SphereWorldViewInput.swift */; };
 		EB740272E373AF27014C240A /* ARImageTrackingModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51A0CA404499A45591ED5E9A /* ARImageTrackingModuleOutput.swift */; };
 		F0FF76484A113331FDC6910F /* ARTablePresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0D9F399EE670AD0F4E12B8C /* ARTablePresenterInput.swift */; };
 		F2A629E62B2E1CC6B9039EB4 /* AboutTabModuleInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D790F73919043FAB08AE8A /* AboutTabModuleInput.swift */; };
+		F6103B6D0F33282CFB534514 /* FrameworkTextRecognPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA091B41384D171ED7D92B50 /* FrameworkTextRecognPresenterInput.swift */; };
 		F6192C0676909C2A79FF2024 /* AboutTabModuleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AAB5B8E280D1C3B72EE471 /* AboutTabModuleOutput.swift */; };
 		F6B702E508C5A87E77C52504 /* TabBarPresenterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFD9BB06924FCAC4231CBB9 /* TabBarPresenterInput.swift */; };
 		F90D0579E1FEF8B5DBF9B9FF /* TabBarInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E5E6F08671846F81C5688 /* TabBarInteractorInput.swift */; };
@@ -196,8 +212,23 @@
 		FED9DF7DF060FFE9B1DFB9AE /* ARQRTrackingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF28F8D3A0E2C5CF6841396 /* ARQRTrackingRouter.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8C4E433B242D084300274078 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8C4E433A242D084300274078 /* SampleFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00E11F5FA3E99D9F2E6CFA37 /* ARTableInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARTableInteractor.swift; sourceTree = "<group>"; };
+		0240DB8913E3615AA645AD76 /* FrameworkTextRecognViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognViewController.swift; sourceTree = "<group>"; };
 		05F0F484F48ABEA83376B7B7 /* SphereWorldPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldPresenter.swift; sourceTree = "<group>"; };
 		0B4A4CA4C8E661C2889E1FD4 /* StartTablePresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTablePresenterInput.swift; sourceTree = "<group>"; };
 		1260E2DD8C38B913CD3ABBD0 /* SphereWorldInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldInteractor.swift; sourceTree = "<group>"; };
@@ -224,6 +255,8 @@
 		37A140601DCFE6A4E3F9C218 /* AboutTabPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabPresenter.swift; sourceTree = "<group>"; };
 		3A188DE18D8273AFE996426C /* ARQRTrackingRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARQRTrackingRouterInput.swift; sourceTree = "<group>"; };
 		3C8B34BE7BFAC012D1CDCCA7 /* CameraViewInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewInteractorInput.swift; sourceTree = "<group>"; };
+		3D3627E8AD416594ECCAE06B /* FrameworkTextRecognViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognViewInput.swift; sourceTree = "<group>"; };
+		3F6D85ACFF59F9E2A88D6D6C /* FrameworkTextRecognModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognModuleInput.swift; sourceTree = "<group>"; };
 		4017E89E2EF2F63C9C9BAB4A /* StartTableViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableViewOutput.swift; sourceTree = "<group>"; };
 		408968FA1811E0AE12A7DC8C /* SphereWorldPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldPresenterInput.swift; sourceTree = "<group>"; };
 		409B39FD0DB73C0FEDAB79DD /* AboutTabViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabViewInput.swift; sourceTree = "<group>"; };
@@ -252,13 +285,16 @@
 		63D3C846B19319C47BF4ED2D /* TabBarInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarInteractorOutput.swift; sourceTree = "<group>"; };
 		6CA6B3182F7C06A7622C15F4 /* ARQRTrackingInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARQRTrackingInteractorOutput.swift; sourceTree = "<group>"; };
 		6D5CEFFF35BC63486F55990E /* WelcomeModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeModuleInput.swift; sourceTree = "<group>"; };
+		6F8D3B2BE4102F06D7B5FD23 /* FrameworkTextRecognModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognModuleOutput.swift; sourceTree = "<group>"; };
 		7017D0806059FF24D0B382BD /* ARQRTrackingPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARQRTrackingPresenterInput.swift; sourceTree = "<group>"; };
 		704F1C7C4182C69B8D8C867C /* ARTableInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARTableInteractorInput.swift; sourceTree = "<group>"; };
+		70F6AEEC534725DA8481F194 /* FrameworkTextRecognRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognRouter.swift; sourceTree = "<group>"; };
 		7243464CA9FF90B24E8B9225 /* AboutTabPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabPresenterInput.swift; sourceTree = "<group>"; };
 		778CA7179B3EBA30C5C56B51 /* ARTableModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARTableModuleInput.swift; sourceTree = "<group>"; };
 		77EE4555ABBA9E35C4C898D5 /* WelcomeInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeInteractorInput.swift; sourceTree = "<group>"; };
 		804FAA1FDC6E7A6015389F8B /* WelcomeRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WelcomeRouterInput.swift; sourceTree = "<group>"; };
 		8185444D79689D76F8957ADD /* CameraViewInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewInteractor.swift; sourceTree = "<group>"; };
+		83BFB890935DAF94B57FF3BC /* FrameworkTextRecognRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognRouterInput.swift; sourceTree = "<group>"; };
 		87D790F73919043FAB08AE8A /* AboutTabModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabModuleInput.swift; sourceTree = "<group>"; };
 		8BCE76C9BFCCD88C696ED4C0 /* ARTableInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARTableInteractorOutput.swift; sourceTree = "<group>"; };
 		8C28982B24157DA3005C7531 /* NetFun+Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetFun+Auth.swift"; sourceTree = "<group>"; };
@@ -319,6 +355,8 @@
 		8C45BC67240D0DDF0051E18A /* MotionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTracker.swift; sourceTree = "<group>"; };
 		8C45BC69240D0DFC0051E18A /* MotionTrackerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTrackerService.swift; sourceTree = "<group>"; };
 		8C45BC6B240D15AE0051E18A /* 360View.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = 360View.xcassets; sourceTree = "<group>"; };
+		8C4E4335242D073900274078 /* SampleFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SampleFramework.framework; sourceTree = "<group>"; };
+		8C4E4337242D07B800274078 /* UIView+ConstrainedUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ConstrainedUIView.swift"; sourceTree = "<group>"; };
 		8C84614124142474008EE5E5 /* NetManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
 		8C846143241424A5008EE5E5 /* MobileNetTransport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileNetTransport.swift; sourceTree = "<group>"; };
 		8C846144241424A5008EE5E5 /* NetworkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
@@ -345,9 +383,12 @@
 		A3520211B289F4E99439B9B7 /* TabBarModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarModule.swift; sourceTree = "<group>"; };
 		A49CF345E9C752204F6B0AC9 /* ARTableModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARTableModuleOutput.swift; sourceTree = "<group>"; };
 		A4CD5AB658A2A2229B53CC95 /* CameraViewModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewModuleOutput.swift; sourceTree = "<group>"; };
+		A4D7B26791CD14E81A86444C /* FrameworkTextRecognPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognPresenter.swift; sourceTree = "<group>"; };
 		A6CA20B0F70163F32F4D2BB6 /* StartTableInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableInteractor.swift; sourceTree = "<group>"; };
 		A734304BEC152E28EB3BC608 /* ARImageTrackingModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARImageTrackingModuleInput.swift; sourceTree = "<group>"; };
 		A820986A66E3E028816C132B /* ARQRTrackingInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARQRTrackingInteractorInput.swift; sourceTree = "<group>"; };
+		A9EC83B2746D7A61C5BCA35B /* FrameworkTextRecognViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognViewOutput.swift; sourceTree = "<group>"; };
+		AD20B521A25F7FC456650863 /* FrameworkTextRecognInteractorOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognInteractorOutput.swift; sourceTree = "<group>"; };
 		B02E3E8DE39D89A95EA6B507 /* TabBarPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
 		B0D9F399EE670AD0F4E12B8C /* ARTablePresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARTablePresenterInput.swift; sourceTree = "<group>"; };
 		B122A1DA48F948ADA09A0159 /* CameraViewViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewViewInput.swift; sourceTree = "<group>"; };
@@ -369,6 +410,7 @@
 		D22627AE46846FC368284868 /* TabBarRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
 		D2B670AAC60383B46E1F23A9 /* ARImageTrackingPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARImageTrackingPresenter.swift; sourceTree = "<group>"; };
 		D2C5A1A212543F71BCFA2EEB /* AboutTabModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabModule.swift; sourceTree = "<group>"; };
+		D392106DE928EE32BAB72A02 /* FrameworkTextRecognInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognInteractor.swift; sourceTree = "<group>"; };
 		D45A8F055D4D2560022B1743 /* SphereWorldModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldModuleOutput.swift; sourceTree = "<group>"; };
 		D46CDE101BAFB001C5FD1D44 /* TabBarInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TabBarInteractor.swift; sourceTree = "<group>"; };
 		D598DE425F505CDED0E0A24E /* ARImageTrackingViewOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARImageTrackingViewOutput.swift; sourceTree = "<group>"; };
@@ -378,6 +420,8 @@
 		DD6A28F3AD594C2E444CF310 /* StartTableModuleInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableModuleInput.swift; sourceTree = "<group>"; };
 		E230FB5DC777EE987A0EAE9A /* SphereWorldViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldViewInput.swift; sourceTree = "<group>"; };
 		E5B835989A36285077C56FD4 /* StartTableInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableInteractorInput.swift; sourceTree = "<group>"; };
+		E979D6F680BBEFD24BB520CA /* FrameworkTextRecognModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognModule.swift; sourceTree = "<group>"; };
+		EA091B41384D171ED7D92B50 /* FrameworkTextRecognPresenterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognPresenterInput.swift; sourceTree = "<group>"; };
 		EC338ECD292B61658C5BEBC9 /* SphereWorldViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SphereWorldViewController.swift; sourceTree = "<group>"; };
 		EC490690E8F17F8BDDA27E5E /* ARImageTrackingViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARImageTrackingViewInput.swift; sourceTree = "<group>"; };
 		EC709AA0361443C3A08ABCE8 /* StartTableViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableViewInput.swift; sourceTree = "<group>"; };
@@ -386,6 +430,7 @@
 		F2522673DE40B3B58AE4DE28 /* ARQRTrackingModuleOutput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARQRTrackingModuleOutput.swift; sourceTree = "<group>"; };
 		F4D9CB3C903161DC0A384C60 /* CameraViewRouterInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CameraViewRouterInput.swift; sourceTree = "<group>"; };
 		F5C2620C89A65417631485EE /* ARTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARTableViewController.swift; sourceTree = "<group>"; };
+		F659E29D5049E3F5461B3C72 /* FrameworkTextRecognInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameworkTextRecognInteractorInput.swift; sourceTree = "<group>"; };
 		F67B1430CB8EC2F6CE3E49F7 /* StartTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StartTableViewController.swift; sourceTree = "<group>"; };
 		F8FF2F6AE8F1A23672205359 /* ARQRTrackingPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ARQRTrackingPresenter.swift; sourceTree = "<group>"; };
 		FB949D3897E8208F62D589DC /* AboutTabRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AboutTabRouter.swift; sourceTree = "<group>"; };
@@ -397,6 +442,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF9D9C50C8ED22314D0D6803 /* Pods_SampleProject.framework in Frameworks */,
+				8C4E4339242D084300274078 /* SampleFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +500,16 @@
 			path = Module;
 			sourceTree = "<group>";
 		};
+		2226DCA0DFF383B13DAAF740 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				F659E29D5049E3F5461B3C72 /* FrameworkTextRecognInteractorInput.swift */,
+				AD20B521A25F7FC456650863 /* FrameworkTextRecognInteractorOutput.swift */,
+				D392106DE928EE32BAB72A02 /* FrameworkTextRecognInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		2E3713DF71D9D5ED21AE34C4 /* ARQRTracking */ = {
 			isa = PBXGroup;
 			children = (
@@ -498,6 +554,7 @@
 				06A4156C35A5580D0C10FCC6 /* ARTable */,
 				2E3713DF71D9D5ED21AE34C4 /* ARQRTracking */,
 				B8250612F4D4533D8C5388B3 /* ARImageTracking */,
+				FAC327BF0DC26970884DC9AF /* FrameworkTextRecogn */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -539,6 +596,16 @@
 				56A276041A0136C491D5503C /* CameraViewViewController.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		4AF7BC675139FF03C155B6D2 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				3F6D85ACFF59F9E2A88D6D6C /* FrameworkTextRecognModuleInput.swift */,
+				6F8D3B2BE4102F06D7B5FD23 /* FrameworkTextRecognModuleOutput.swift */,
+				E979D6F680BBEFD24BB520CA /* FrameworkTextRecognModule.swift */,
+			);
+			path = Module;
 			sourceTree = "<group>";
 		};
 		4E0BAE948D6DC85281CF9BCA /* Presenter */ = {
@@ -613,6 +680,25 @@
 				1CBAEEDD2BD1308D34CBA84B /* WelcomeModule.swift */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		6C1EAD86101FA5B7AD7E31B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D3627E8AD416594ECCAE06B /* FrameworkTextRecognViewInput.swift */,
+				A9EC83B2746D7A61C5BCA35B /* FrameworkTextRecognViewOutput.swift */,
+				0240DB8913E3615AA645AD76 /* FrameworkTextRecognViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		705B78098F49512030D369FF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				83BFB890935DAF94B57FF3BC /* FrameworkTextRecognRouterInput.swift */,
+				70F6AEEC534725DA8481F194 /* FrameworkTextRecognRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		74B9611901FF9B64D62AE765 /* StartTable */ = {
@@ -726,6 +812,7 @@
 		8C45B97E240924840051E18A /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				8C4E4334242D06F000274078 /* frameworks */,
 				8C45B977240916930051E18A /* Info.plist */,
 			);
 			path = Support;
@@ -812,6 +899,7 @@
 				8C45B9972409268D0051E18A /* String+Localization.swift */,
 				8C45B9982409268D0051E18A /* UINavigationController + Common.swift */,
 				8C45B9992409268D0051E18A /* UICollectionView+Model.swift */,
+				8C4E4337242D07B800274078 /* UIView+ConstrainedUIView.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -922,6 +1010,14 @@
 			path = MotionTracker;
 			sourceTree = "<group>";
 		};
+		8C4E4334242D06F000274078 /* frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E4335242D073900274078 /* SampleFramework.framework */,
+			);
+			path = frameworks;
+			sourceTree = "<group>";
+		};
 		8C84614024142300008EE5E5 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -1027,6 +1123,15 @@
 			children = (
 				408968FA1811E0AE12A7DC8C /* SphereWorldPresenterInput.swift */,
 				05F0F484F48ABEA83376B7B7 /* SphereWorldPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		9FCDF600209E86805661F068 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EA091B41384D171ED7D92B50 /* FrameworkTextRecognPresenterInput.swift */,
+				A4D7B26791CD14E81A86444C /* FrameworkTextRecognPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -1287,6 +1392,18 @@
 			path = Interactor;
 			sourceTree = "<group>";
 		};
+		FAC327BF0DC26970884DC9AF /* FrameworkTextRecogn */ = {
+			isa = PBXGroup;
+			children = (
+				6C1EAD86101FA5B7AD7E31B3 /* View */,
+				9FCDF600209E86805661F068 /* Presenter */,
+				2226DCA0DFF383B13DAAF740 /* Interactor */,
+				705B78098F49512030D369FF /* Router */,
+				4AF7BC675139FF03C155B6D2 /* Module */,
+			);
+			path = FrameworkTextRecogn;
+			sourceTree = "<group>";
+		};
 		FC19F76A2AC9690F9FCCF6C6 /* Router */ = {
 			isa = PBXGroup;
 			children = (
@@ -1308,6 +1425,7 @@
 				8C45B963240916910051E18A /* Frameworks */,
 				8C45B964240916910051E18A /* Resources */,
 				9324E45EC43DBEB28B534F7D /* [CP] Embed Pods Frameworks */,
+				8C4E433B242D084300274078 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1561,6 +1679,7 @@
 				3BDD9846CC7B10F93A3BE32D /* ARTableViewController.swift in Sources */,
 				F0FF76484A113331FDC6910F /* ARTablePresenterInput.swift in Sources */,
 				6920BE7CE374147C25B506E5 /* ARTablePresenter.swift in Sources */,
+				8C4E4338242D07B800274078 /* UIView+ConstrainedUIView.swift in Sources */,
 				7F50B2CF65352F98EBF40405 /* ARTableInteractorInput.swift in Sources */,
 				92C7C3953BA69FCCB128AD83 /* ARTableInteractorOutput.swift in Sources */,
 				0BA2FCEA6578C936DAA995F9 /* ARTableInteractor.swift in Sources */,
@@ -1595,6 +1714,19 @@
 				B827395B78EDF3C9040D2825 /* ARImageTrackingModuleInput.swift in Sources */,
 				EB740272E373AF27014C240A /* ARImageTrackingModuleOutput.swift in Sources */,
 				682C6B281CFB252D9AE5F28E /* ARImageTrackingModule.swift in Sources */,
+				1169E5527006D0016F03013C /* FrameworkTextRecognViewInput.swift in Sources */,
+				961DAD6FEB0657DB5230B119 /* FrameworkTextRecognViewOutput.swift in Sources */,
+				C33A107954DAD0F042209828 /* FrameworkTextRecognViewController.swift in Sources */,
+				F6103B6D0F33282CFB534514 /* FrameworkTextRecognPresenterInput.swift in Sources */,
+				99F6691D64088A2B56B042B3 /* FrameworkTextRecognPresenter.swift in Sources */,
+				E1F5DB0ECD108F6A57C14A21 /* FrameworkTextRecognInteractorInput.swift in Sources */,
+				8181D797B3B0D02CFB70C53D /* FrameworkTextRecognInteractorOutput.swift in Sources */,
+				408F345FF443806AD362220B /* FrameworkTextRecognInteractor.swift in Sources */,
+				82B5A3F7250B7B455543AEA8 /* FrameworkTextRecognRouterInput.swift in Sources */,
+				B5544AD545DA6EB84DAC8544 /* FrameworkTextRecognRouter.swift in Sources */,
+				5A872FBF4FFBE1F058A2CF04 /* FrameworkTextRecognModuleInput.swift in Sources */,
+				1F2798EB35B47934A617776E /* FrameworkTextRecognModuleOutput.swift in Sources */,
+				4E771CDCF9D1124964839BE2 /* FrameworkTextRecognModule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1744,6 +1876,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LY6Q63HDBG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleProject/Support/frameworks",
+				);
 				INFOPLIST_FILE = SampleProject/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1763,6 +1899,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LY6Q63HDBG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleProject/Support/frameworks",
+				);
 				INFOPLIST_FILE = SampleProject/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

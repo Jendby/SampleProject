@@ -12,6 +12,7 @@ enum ARTableType {
     case sphereScene
     case ARQRTracking
     case ARImageTracking
+    case FrameworkTextRecogniser
 }
 
 final class ARTablePresenter:SingleSectionPresenter {
@@ -68,6 +69,9 @@ extension ARTablePresenter: SingleSectionPresenterDelegate {
             }
             if m.type == .ARImageTracking {
                 router.ARImageTracking(from: self.view.viewController)
+            }
+            if m.type == .FrameworkTextRecogniser {
+ 
             }
         }
     }

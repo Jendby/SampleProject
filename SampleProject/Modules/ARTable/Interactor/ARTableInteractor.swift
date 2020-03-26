@@ -31,7 +31,11 @@ extension ARTableInteractor: ARTableInteractorInput  {
             ARTableModel(id: "ImageTracking",
                          about: "Image Tracking",
                          theme: theme,
-                         type: .ARImageTracking)])
+                         type: .ARImageTracking),
+            ARTableModel(id: "FrameworkTextRecogniser",
+                         about: "Framework Text Recogniser",
+                         theme: theme,
+                         type: .FrameworkTextRecogniser)])
     }
     
 }
