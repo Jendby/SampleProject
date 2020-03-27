@@ -29,4 +29,7 @@ extension ARTableRouter: ARTableRouterInput {
     func FrameworkTextTracking(from vc:UIViewController) {
         DataFromFramTextRecModule.create().present(from: vc)
     }
+    func ArShooter(from vc:UIViewController) {
+        ARShooterModule.create().present(from: vc)
+    }
 }

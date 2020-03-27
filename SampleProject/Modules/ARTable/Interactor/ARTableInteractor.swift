@@ -35,7 +35,11 @@ extension ARTableInteractor: ARTableInteractorInput  {
             ARTableModel(id: "FrameworkTextRecogniser",
                          about: "Framework Text Recogniser",
                          theme: theme,
-                         type: .FrameworkTextRecogniser)])
+                         type: .FrameworkTextRecogniser),
+            ARTableModel(id: "ARShooter",
+                         about: "ARShooter+ML",
+                         theme: theme,
+                         type: .ARShooter)])
     }
     
 }
