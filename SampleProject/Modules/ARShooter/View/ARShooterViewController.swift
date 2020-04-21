@@ -75,7 +75,7 @@ final class ARShooterViewController: BaseViewController {
         let location = SCNVector3(transform.m41, transform.m42, transform.m43)
         let position = SCNVector3(orientation.x + location.x, orientation.y + location.y, orientation.z + location.z)
         bulletsNode.position = position
-        let force: Float = 5
+        let force: Float = 2
         bulletsNode.physicsBody?.applyForce(SCNVector3(orientation.x * force, orientation.y * force, orientation.z * force), asImpulse: true)
         sceneView.scene.rootNode.addChildNode(bulletsNode)
     }
