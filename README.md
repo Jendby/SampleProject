@@ -6,6 +6,7 @@ Animate gradient layer, transition to TabBarController with list of JSONPlacehol
 <p align="center">
     <img src="https://github.com/Jendby/SampleProject/blob/master/Gifs/1gif.gif" width="40%" height="40%" alt="Screenshot Preview" />
 </p>
+</details>
 
 ## QRTracker
 ARKit + Vision barcoderecognizer
