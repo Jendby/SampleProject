@@ -39,3 +39,11 @@ ARKit interaction of objects + hand mlmodel recognizer(create in playground)
     <img src="https://github.com/Jendby/SampleProject/blob/master/Gifs/5gif.gif" width="40%" height="40%" alt="Screenshot Preview5" />
 </p>
 </details>
+
+## IndoorNavigation (in progress)
+Create indoor Navigation with ARKit and SceneKit minimap
+<details><summary>Open gif</summary>
+<p align="center">
+    <img src="https://github.com/Jendby/SampleProject/blob/master/Gifs/indoor1.gif" width="40%" height="40%" alt="Screenshot Preview5" />
+</p>
+</details>
